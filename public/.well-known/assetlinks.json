@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.vercel.ondetemfeira.twa",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:7C:F5:AC:AB:83:A0:87:6D:AE:C2:59:F0:A1:6A:AE:F4:75:A8:1B:10:48:9A:F0:B5:41:A5:68:5A:F4"
+      ]
+    }
+  }
+]

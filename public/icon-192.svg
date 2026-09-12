@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#e11d48" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)" />
+
+  <!-- Inner Gloss Circle -->
+  <circle cx="256" cy="256" r="190" fill="white" fill-opacity="0.12" />
+
+  <!-- Market Basket Icon -->
+  <g filter="url(#shadow)" transform="translate(106, 116)">
+    <!-- Basket Body -->
+    <path d="M 45 130 L 255 130 L 230 250 C 225 270, 205 280, 185 280 L 115 280 C 95 280, 75 270, 70 250 Z" fill="#ffffff" />
+    <!-- Basket Rim -->
+    <rect x="30" y="110" width="240" height="26" rx="13" fill="#ffffff" />
+    <!-- Handle -->
+    <path d="M 80 110 C 80 40, 220 40, 220 110" fill="none" stroke="#ffffff" stroke-width="24" stroke-linecap="round" />
+    
+    <!-- Fruits / Accents in Basket -->
+    <!-- Orange / Tangerine -->
+    <circle cx="110" cy="100" r="32" fill="#fbbf24" />
+    <!-- Apple / Red Fruit -->
+    <circle cx="160" cy="90" r="34" fill="#ef4444" />
+    <!-- Leaf -->
+    <path d="M 160 56 C 175 40, 190 50, 185 62 C 170 70, 160 56, 160 56 Z" fill="#22c55e" />
+    <!-- Green Fruit / Lime -->
+    <circle cx="200" cy="104" r="28" fill="#4ade80" />
+  </g>
+</svg>

@@ -16,6 +16,12 @@ export const metadata: Metadata = {
   title: "Onde tem feira — Mapa, Lista de Compras e Mural da Feira",
   description:
     "Mapa das feiras livres no Brasil — Rio de Janeiro, São Paulo, Cuiabá, Belo Horizonte, Brasília, Salvador, Curitiba, Porto Alegre, Recife e mais. Filtre por dia, cidade e bairro, crie sua lista de compras e confira postagens com preços atualizados.",
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "OndeTemFeira",
+  },
   openGraph: {
     title: "Onde tem feira — Mapa e Comunidade de Feiras Livres",
     description:
@@ -32,6 +38,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <head>
+        <meta name="theme-color" content="#f59e0b" />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-stone-50 text-stone-900`}
       >
