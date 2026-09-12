@@ -1,0 +1,2399 @@
+{
+  "feiras": [
+    {
+      "id": "sp-vila-madalena-sab-01",
+      "name": "Feira Vila Madalena",
+      "city": "São Paulo",
+      "neighborhood": "Vila Madalena",
+      "lat": -23.556633,
+      "lng": -46.691754,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Mourato Coelho,1100",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-santa-cecilia-dom-02",
+      "name": "Feira Santa Cecilia",
+      "city": "São Paulo",
+      "neighborhood": "Santa Cecilia",
+      "lat": -23.538718,
+      "lng": -46.648809,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua  Sebastiao Pereira,553",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-santo-amaro-sex-03",
+      "name": "Feira Santo Amaro",
+      "city": "São Paulo",
+      "neighborhood": "Santo Amaro",
+      "lat": -23.634556,
+      "lng": -46.71032,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Av  Prof Alceu Maynard Araujo,30",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-chacara-itaim-ter-04",
+      "name": "Feira Chacara Itaim",
+      "city": "São Paulo",
+      "neighborhood": "Chacara Itaim",
+      "lat": -23.583026,
+      "lng": -46.674099,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Prof Tamandare De Toledo,100",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-aclimacao-sab-05",
+      "name": "Feira Aclimacao",
+      "city": "São Paulo",
+      "neighborhood": "Aclimacao",
+      "lat": -23.568385,
+      "lng": -46.63521,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Loureiro Da Cruz C/ Urano,1",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-jabaquara-qui-06",
+      "name": "Feira Jabaquara",
+      "city": "São Paulo",
+      "neighborhood": "Jabaquara",
+      "lat": -23.627367,
+      "lng": -46.646518,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Av  Ceci,1828",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-aclimacao-sex-07",
+      "name": "Feira Aclimacao",
+      "city": "São Paulo",
+      "neighborhood": "Aclimacao",
+      "lat": -23.578584,
+      "lng": -46.628721,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Eng Luiz Gomes C Sangirardi,640",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-cerqueira-cezar-qui-08",
+      "name": "Feira Cerqueira Cezar",
+      "city": "São Paulo",
+      "neighborhood": "Cerqueira Cezar",
+      "lat": -23.566863,
+      "lng": -46.687263,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Antonio Bicudo,50",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-vila-pompeia-sex-09",
+      "name": "Feira Vila Pompeia",
+      "city": "São Paulo",
+      "neighborhood": "Vila Pompeia",
+      "lat": -23.529837,
+      "lng": -46.684166,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Min Ferreira Alves C/ Tucuna,50",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-bom-retiro-sab-10",
+      "name": "Feira Bom Retiro",
+      "city": "São Paulo",
+      "neighborhood": "Bom Retiro",
+      "lat": -23.523637,
+      "lng": -46.646321,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Jaragua,129",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-ipiranga-qui-11",
+      "name": "Feira Ipiranga",
+      "city": "São Paulo",
+      "neighborhood": "Ipiranga",
+      "lat": -23.598123,
+      "lng": -46.613047,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Dr Mario Vicente,1199",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-consolacao-dom-12",
+      "name": "Feira Consolacao",
+      "city": "São Paulo",
+      "neighborhood": "Consolacao",
+      "lat": -23.548031,
+      "lng": -46.647028,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Major Quedinho,89",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-pinheiros-ter-13",
+      "name": "Feira Pinheiros",
+      "city": "São Paulo",
+      "neighborhood": "Pinheiros",
+      "lat": -23.557966,
+      "lng": -46.680468,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Pç  Benedito Calixto,100",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-cambuci-ter-14",
+      "name": "Feira Cambuci",
+      "city": "São Paulo",
+      "neighborhood": "Cambuci",
+      "lat": -23.563092,
+      "lng": -46.61868,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Stefano,1000",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-alto-de-vila-pompeia-qua-15",
+      "name": "Feira Alto De Vila Pompeia",
+      "city": "São Paulo",
+      "neighborhood": "Alto De Vila Pompeia",
+      "lat": -23.532629,
+      "lng": -46.688382,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Tavares Bastos,901",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-tatuape-ter-16",
+      "name": "Feira Tatuape",
+      "city": "São Paulo",
+      "neighborhood": "Tatuape",
+      "lat": -23.535023,
+      "lng": -46.576512,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Andre Vidal C/ Alm Calheiros,100",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-mooca-qua-17",
+      "name": "Feira Mooca",
+      "city": "São Paulo",
+      "neighborhood": "Mooca",
+      "lat": -23.561198,
+      "lng": -46.596765,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Madre De Deus,604",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-campo-belo-qua-18",
+      "name": "Feira Campo Belo",
+      "city": "São Paulo",
+      "neighborhood": "Campo Belo",
+      "lat": -23.61514,
+      "lng": -46.669966,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Barao De Jaceguai,1768",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-ipiranga-dom-19",
+      "name": "Feira Ipiranga",
+      "city": "São Paulo",
+      "neighborhood": "Ipiranga",
+      "lat": -23.583154,
+      "lng": -46.604064,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua  Agostinho Gomes,352",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-vila-sonia-sex-20",
+      "name": "Feira Vila Sonia",
+      "city": "São Paulo",
+      "neighborhood": "Vila Sonia",
+      "lat": -23.592733,
+      "lng": -46.731097,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Av  Gal Francisco Morazan,200",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-lapa-dom-21",
+      "name": "Feira Lapa",
+      "city": "São Paulo",
+      "neighborhood": "Lapa",
+      "lat": -23.526689,
+      "lng": -46.700113,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua  Fabia C Aurelia,701",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-alto-das-perdizes-ter-22",
+      "name": "Feira Alto Das Perdizes",
+      "city": "São Paulo",
+      "neighborhood": "Alto Das Perdizes",
+      "lat": -23.539462,
+      "lng": -46.673111,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Min Godoy,1261",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-alto-de-vila-pompeia-sab-23",
+      "name": "Feira Alto De Vila Pompeia",
+      "city": "São Paulo",
+      "neighborhood": "Alto De Vila Pompeia",
+      "lat": -23.536734,
+      "lng": -46.690934,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Barao Do Bananal C Coari,1000",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-santana-qua-24",
+      "name": "Feira Santana",
+      "city": "São Paulo",
+      "neighborhood": "Santana",
+      "lat": -23.501595,
+      "lng": -46.625552,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Gabriel Pizza,400",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-vila-formosa-qua-25",
+      "name": "Feira Vila Formosa",
+      "city": "São Paulo",
+      "neighborhood": "Vila Formosa",
+      "lat": -23.558826,
+      "lng": -46.550218,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Maragojipe,320",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-mooca-sab-26",
+      "name": "Feira Mooca",
+      "city": "São Paulo",
+      "neighborhood": "Mooca",
+      "lat": -23.563407,
+      "lng": -46.599961,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Tabajaras,100",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-brooklin-paulista-sex-27",
+      "name": "Feira Brooklin Paulista",
+      "city": "São Paulo",
+      "neighborhood": "Brooklin Paulista",
+      "lat": -23.615468,
+      "lng": -46.688154,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Godoi Colaco,1016",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-aclimacao-ter-28",
+      "name": "Feira Aclimacao",
+      "city": "São Paulo",
+      "neighborhood": "Aclimacao",
+      "lat": -23.578715,
+      "lng": -46.633197,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Guimaraes Passos,304",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-vila-butanta-sab-29",
+      "name": "Feira Vila Butanta",
+      "city": "São Paulo",
+      "neighborhood": "Vila Butanta",
+      "lat": -23.563088,
+      "lng": -46.747173,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Jose Alves Da Cunha Lima,172",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-alto-da-lapa-qui-30",
+      "name": "Feira Alto Da Lapa",
+      "city": "São Paulo",
+      "neighborhood": "Alto Da Lapa",
+      "lat": -23.520266,
+      "lng": -46.709211,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Dom Joao V C Sacadura Cabral,85",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-liberdade-moderna-qua-31",
+      "name": "Feira Liberdade/Moderna",
+      "city": "São Paulo",
+      "neighborhood": "Liberdade/Moderna",
+      "lat": -23.563756,
+      "lng": -46.634356,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Pandia Calogeras,37",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-perdizes-sex-32",
+      "name": "Feira Perdizes",
+      "city": "São Paulo",
+      "neighborhood": "Perdizes",
+      "lat": -23.529473,
+      "lng": -46.6592,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Camaragibe C/ Lopes Chaves,122",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-butanta-qui-33",
+      "name": "Feira Butanta",
+      "city": "São Paulo",
+      "neighborhood": "Butanta",
+      "lat": -23.570818,
+      "lng": -46.70358,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Agostinho Cantu C/ Romao Gomes,1",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-brooklin-paulista-qui-34",
+      "name": "Feira Brooklin Paulista",
+      "city": "São Paulo",
+      "neighborhood": "Brooklin Paulista",
+      "lat": -23.623362,
+      "lng": -46.677605,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Conde De Porto Alegre,100",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-jardim-da-saude-dom-35",
+      "name": "Feira Jardim Da Saude",
+      "city": "São Paulo",
+      "neighborhood": "Jardim Da Saude",
+      "lat": -23.613325,
+      "lng": -46.618877,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Pç  Bras Goncalves,99",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-liberdade-sab-36",
+      "name": "Feira Liberdade",
+      "city": "São Paulo",
+      "neighborhood": "Liberdade",
+      "lat": -23.561567,
+      "lng": -46.636095,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Tagua,1",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-feira-livre-ipiranga-sex-37",
+      "name": "Feira Feira Livre Ipiranga",
+      "city": "São Paulo",
+      "neighborhood": "Feira Livre Ipiranga",
+      "lat": -23.542414,
+      "lng": -46.640512,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Av  Ipiranga,700",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-feira-livre-praca-liberdade-qua-38",
+      "name": "Feira Feira Livre Praca Liberdade",
+      "city": "São Paulo",
+      "neighborhood": "Feira Livre Praca Liberdade",
+      "lat": -23.554653,
+      "lng": -46.634707,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Pç  Liberdade,5145",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-conj-residencial-do-butanta-dom-39",
+      "name": "Feira Conj Residencial Do Butanta",
+      "city": "São Paulo",
+      "neighborhood": "Conj Residencial Do Butanta",
+      "lat": -23.570774,
+      "lng": -46.580686,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Luis Antonio Martins,21",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-vila-olimpia-dom-40",
+      "name": "Feira Vila Olimpia",
+      "city": "São Paulo",
+      "neighborhood": "Vila Olimpia",
+      "lat": -23.597954,
+      "lng": -46.675251,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua  Helion Povoa,165",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-parque-da-mooca-ter-41",
+      "name": "Feira Parque Da Mooca",
+      "city": "São Paulo",
+      "neighborhood": "Parque Da Mooca",
+      "lat": -23.566005,
+      "lng": -46.598258,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Conde Prates,466",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-parque-jabaquara-sab-42",
+      "name": "Feira Parque Jabaquara",
+      "city": "São Paulo",
+      "neighborhood": "Parque Jabaquara",
+      "lat": -23.637777,
+      "lng": -46.655089,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Bonifacio De Abreu,50",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-central-park-lapa-sab-43",
+      "name": "Feira Central Park Lapa",
+      "city": "São Paulo",
+      "neighborhood": "Central Park Lapa",
+      "lat": -23.518143,
+      "lng": -46.700193,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Dom Romeu Alberti,50",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-ipiranga-qui-44",
+      "name": "Feira Ipiranga",
+      "city": "São Paulo",
+      "neighborhood": "Ipiranga",
+      "lat": -23.61,
+      "lng": -46.606409,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Pç  Pedro Balint,1",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-santana-qui-45",
+      "name": "Feira Santana",
+      "city": "São Paulo",
+      "neighborhood": "Santana",
+      "lat": -23.473835,
+      "lng": -46.626198,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Av  Engenheiro Caetano Alvares,10000",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-jardim-vila-carrao-i-dom-46",
+      "name": "Feira Jardim Vila Carrao I",
+      "city": "São Paulo",
+      "neighborhood": "Jardim Vila Carrao I",
+      "lat": -23.612761,
+      "lng": -46.455816,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Av  Bassano Del Grapa,100",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-jardim-santana-sab-47",
+      "name": "Feira Jardim Santana",
+      "city": "São Paulo",
+      "neighborhood": "Jardim Santana",
+      "lat": -23.512141,
+      "lng": -46.452532,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Fruto Do Paraiso,10",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-jardim-pinheiros-sab-48",
+      "name": "Feira Jardim Pinheiros",
+      "city": "São Paulo",
+      "neighborhood": "Jardim Pinheiros",
+      "lat": -23.582312,
+      "lng": -46.740219,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "08:00–14:00",
+      "address": null,
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-varzea-da-barra-funda-qua-49",
+      "name": "Feira Várzea da Barra Funda",
+      "city": "São Paulo",
+      "neighborhood": "Várzea da Barra Funda",
+      "lat": -23.521825,
+      "lng": -46.664305,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua  Quirino Dos Santos",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-tte-godofredo-cerqueira-leite-qui-50",
+      "name": "Feira Tte Godofredo Cerqueira Leite",
+      "city": "São Paulo",
+      "neighborhood": "Tte Godofredo Cerqueira Leite",
+      "lat": -23.614698,
+      "lng": -46.497695,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Tte Godofredo Cerqueira Leite,213",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-vila-formosa-dom-51",
+      "name": "Feira Vila Formosa",
+      "city": "São Paulo",
+      "neighborhood": "Vila Formosa",
+      "lat": -23.562865,
+      "lng": -46.534913,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Av  Trumain C/ Henrique Morize,500",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-vila-carrao-qui-52",
+      "name": "Feira Vila Carrao",
+      "city": "São Paulo",
+      "neighborhood": "Vila Carrao",
+      "lat": -23.546039,
+      "lng": -46.543244,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Dentista Barreto,120",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-vereda-do-paraiso-qui-53",
+      "name": "Feira Vereda Do Paraiso",
+      "city": "São Paulo",
+      "neighborhood": "Vereda Do Paraiso",
+      "lat": -23.498692,
+      "lng": -46.405408,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Vereda Do Paraiso,18",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-vila-carrao-dom-54",
+      "name": "Feira Vila Carrao",
+      "city": "São Paulo",
+      "neighborhood": "Vila Carrao",
+      "lat": -23.541153,
+      "lng": -46.545208,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua  Comen Gil Pinheiro,325",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-vila-santana-sab-55",
+      "name": "Feira Vila Santana",
+      "city": "São Paulo",
+      "neighborhood": "Vila Santana",
+      "lat": -23.519158,
+      "lng": -46.533496,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Eneas De Barros,425",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-penha-dom-56",
+      "name": "Feira Penha",
+      "city": "São Paulo",
+      "neighborhood": "Penha",
+      "lat": -23.516889,
+      "lng": -46.53914,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua  Omacha,530",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-jardim-penha-sab-57",
+      "name": "Feira Jardim Penha",
+      "city": "São Paulo",
+      "neighborhood": "Jardim Penha",
+      "lat": -23.494376,
+      "lng": -46.496197,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Do Acapuzal,9",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-jardim-vila-formosa-sab-58",
+      "name": "Feira Jardim Vila Formosa",
+      "city": "São Paulo",
+      "neighborhood": "Jardim Vila Formosa",
+      "lat": -23.568526,
+      "lng": -46.523543,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Av  Dom Azeredo Coutinho,125",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-tucuruvi-dom-59",
+      "name": "Feira Tucuruvi",
+      "city": "São Paulo",
+      "neighborhood": "Tucuruvi",
+      "lat": -23.482792,
+      "lng": -46.614146,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua  Casa Forte,100",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "sp-vila-itaim-dom-60",
+      "name": "Feira Vila Itaim",
+      "city": "São Paulo",
+      "neighborhood": "Vila Itaim",
+      "lat": -23.485823,
+      "lng": -46.390794,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Rua Cachoeira Mangaval,37",
+      "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "rj-saude-sex-01",
+      "name": "Feira Rua do Livramento",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Saúde",
+      "lat": -22.8975,
+      "lng": -43.187,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua do Livramento",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-caju-dom-02",
+      "name": "Feira Rua Gal. Gurjão",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Caju",
+      "lat": -22.88,
+      "lng": -43.225,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Gal. Gurjão",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-centro-sab-03",
+      "name": "Feira Rua Tadeu Kosciusko / Carlos Sampaio",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Centro",
+      "lat": -22.912,
+      "lng": -43.188,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Tadeu Kosciusko",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-centro-qui-04",
+      "name": "Feira Rua Conde de Lages",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Centro",
+      "lat": -22.9145,
+      "lng": -43.192,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Conde de Lages",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-catumbi-seg-05",
+      "name": "Feira Rua Emília Guimarães",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Catumbi",
+      "lat": -22.918,
+      "lng": -43.2,
+      "daysOfWeek": [
+        "segunda"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Emília Guimarães",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-rio-comprido-qua-06",
+      "name": "Feira Rua Barão de Sertório",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Rio Comprido",
+      "lat": -22.926,
+      "lng": -43.21,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Barão de Sertório",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-rio-comprido-sab-07",
+      "name": "Feira Rua Costa Ferraz",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Rio Comprido",
+      "lat": -22.9275,
+      "lng": -43.208,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Costa Ferraz",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-cidade-nova-qui-08",
+      "name": "Feira Praça Cel. Castelo Branco",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Cidade Nova",
+      "lat": -22.91,
+      "lng": -43.205,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Praça Cel. Castelo Branco",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-estacio-qua-09",
+      "name": "Feira Rua Sampaio Ferraz",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Estácio",
+      "lat": -22.9125,
+      "lng": -43.2075,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Sampaio Ferraz",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-sao-cristovao-qui-10",
+      "name": "Feira Rua Gal. Argolo",
+      "city": "Rio de Janeiro",
+      "neighborhood": "São Cristóvão",
+      "lat": -22.9,
+      "lng": -43.22,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Gal. Argolo",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-sao-cristovao-dom-11",
+      "name": "Feira Rua Gal. Bruce",
+      "city": "Rio de Janeiro",
+      "neighborhood": "São Cristóvão",
+      "lat": -22.898,
+      "lng": -43.222,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Gal. Bruce",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-santa-teresa-sex-12",
+      "name": "Feira Rua Terezinha",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Santa Teresa",
+      "lat": -22.92,
+      "lng": -43.188,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Terezinha",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-flamengo-ter-13",
+      "name": "Feira Rua Arno Konder / Gov. Irineu Bornhausen",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Flamengo",
+      "lat": -22.932,
+      "lng": -43.176,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Arno Konder",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-gloria-dom-14",
+      "name": "Feira Av. Augusto Severo",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Glória",
+      "lat": -22.921,
+      "lng": -43.1765,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Av. Augusto Severo",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-laranjeiras-sab-15",
+      "name": "Feira Rua Prof. Ortiz Monteiro",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Laranjeiras",
+      "lat": -22.934,
+      "lng": -43.185,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Prof. Ortiz Monteiro",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-laranjeiras-sex-16",
+      "name": "Feira Viaduto Jardel Filho",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Laranjeiras",
+      "lat": -22.933,
+      "lng": -43.182,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Viaduto Jardel Filho",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-botafogo-sab-17",
+      "name": "Feira Rua Paulo Barreto",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Botafogo",
+      "lat": -22.952,
+      "lng": -43.186,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Paulo Barreto",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-botafogo-seg-18",
+      "name": "Feira Rua Vicente de Souza",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Botafogo",
+      "lat": -22.954,
+      "lng": -43.188,
+      "daysOfWeek": [
+        "segunda"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Vicente de Souza",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-botafogo-qua-19",
+      "name": "Feira Praça Nicarágua",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Botafogo",
+      "lat": -22.95,
+      "lng": -43.184,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Praça Nicarágua",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-botafogo-sex-20",
+      "name": "Feira Rua Rodrigo de Brito",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Botafogo",
+      "lat": -22.9515,
+      "lng": -43.19,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Rodrigo de Brito",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-botafogo-ter-21",
+      "name": "Feira Rua Barão de Macaúbas",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Botafogo",
+      "lat": -22.9535,
+      "lng": -43.191,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Barão de Macaúbas",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-humaita-qua-22",
+      "name": "Feira Rua Maria Eugênia",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Humaitá",
+      "lat": -22.958,
+      "lng": -43.2,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Maria Eugênia",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-urca-dom-23",
+      "name": "Feira Praça Tenente Gil Guilherme",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Urca",
+      "lat": -22.948,
+      "lng": -43.163,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Praça Tenente Gil Guilherme",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-leme-seg-24",
+      "name": "Feira Praça Alm. Júlio de Noronha",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Leme",
+      "lat": -22.963,
+      "lng": -43.17,
+      "daysOfWeek": [
+        "segunda"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Praça Alm. Júlio de Noronha",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-copacabana-dom-25",
+      "name": "Feira Praça Serzedelo Correia",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Copacabana",
+      "lat": -22.967,
+      "lng": -43.185,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Praça Serzedelo Correia",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-copacabana-qui-26",
+      "name": "Feira Rua Ronald de Carvalho",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Copacabana",
+      "lat": -22.9685,
+      "lng": -43.182,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Ronald de Carvalho",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-copacabana-qua-27",
+      "name": "Feira Praça Edmundo Bittencourt",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Copacabana",
+      "lat": -22.971,
+      "lng": -43.188,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Praça Edmundo Bittencourt",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-ipanema-sex-28",
+      "name": "Feira Praça Nossa Senhora da Paz",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Ipanema",
+      "lat": -22.984,
+      "lng": -43.205,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Praça N.S. da Paz",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-ipanema-seg-29",
+      "name": "Feira Av. Epitácio Pessoa (entre Visc. de Pirajá e Nascimento Silva)",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Ipanema",
+      "lat": -22.983,
+      "lng": -43.2055,
+      "daysOfWeek": [
+        "segunda"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Av. Epitácio Pessoa",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-ipanema-ter-30",
+      "name": "Feira Praça Gal. Osório",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Ipanema",
+      "lat": -22.9835,
+      "lng": -43.197,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Praça Gal. Osório",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-leblon-qui-31",
+      "name": "Feira Praça Nossa Senhora Auxiliadora",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Leblon",
+      "lat": -22.9845,
+      "lng": -43.223,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Praça N.S. Auxiliadora",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-lagoa-dom-32",
+      "name": "Feira Av. Lineu de Paula Machado",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Lagoa",
+      "lat": -22.971,
+      "lng": -43.215,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Av. Lineu de Paula Machado",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-jardim-botanico-sab-33",
+      "name": "Feira Rua Frei Leandro",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Jardim Botânico",
+      "lat": -22.963,
+      "lng": -43.218,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Frei Leandro",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-gavea-sex-34",
+      "name": "Feira Praça Santos Dumont",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Gávea",
+      "lat": -22.973,
+      "lng": -43.23,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Praça Santos Dumont",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-praca-da-bandeira-dom-35",
+      "name": "Feira Rua Vicente Licínio",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Praça da Bandeira",
+      "lat": -22.912,
+      "lng": -43.212,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Vicente Licínio",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-tijuca-sex-36",
+      "name": "Feira Rua Garibaldi",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Tijuca",
+      "lat": -22.925,
+      "lng": -43.23,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Garibaldi",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-tijuca-sex-37",
+      "name": "Feira Rua Alzira Brandão",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Tijuca",
+      "lat": -22.927,
+      "lng": -43.232,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Alzira Brandão",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-tijuca-seg-38",
+      "name": "Feira Rua Aguiar",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Tijuca",
+      "lat": -22.924,
+      "lng": -43.228,
+      "daysOfWeek": [
+        "segunda"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Aguiar",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-tijuca-ter-39",
+      "name": "Feira Rua Gabriela Prado Maia",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Tijuca",
+      "lat": -22.926,
+      "lng": -43.235,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Gabriela Prado Maia",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-tijuca-ter-40",
+      "name": "Feira Praça Prof. Pinheiro Guimarães",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Tijuca",
+      "lat": -22.928,
+      "lng": -43.238,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Praça Prof. Pinheiro Guimarães",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-tijuca-qua-41",
+      "name": "Feira Rua Visconde de Figueiredo",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Tijuca",
+      "lat": -22.922,
+      "lng": -43.233,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Visconde de Figueiredo",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-maracana-qui-42",
+      "name": "Feira Rua Moraes e Silva",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Maracanã",
+      "lat": -22.913,
+      "lng": -43.23,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Moraes e Silva",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-maracana-sab-43",
+      "name": "Feira Rua Prof. Manoel de Abreu",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Maracanã",
+      "lat": -22.911,
+      "lng": -43.228,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Prof. Manoel de Abreu",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-vila-isabel-ter-44",
+      "name": "Feira Rua Jorge Rudge",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Vila Isabel",
+      "lat": -22.916,
+      "lng": -43.245,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Jorge Rudge",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-vila-isabel-qua-45",
+      "name": "Feira Rua Mendes Tavares",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Vila Isabel",
+      "lat": -22.915,
+      "lng": -43.248,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Mendes Tavares",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-andarai-dom-46",
+      "name": "Feira Rua Araripe Júnior",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Andaraí",
+      "lat": -22.928,
+      "lng": -43.25,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Araripe Júnior",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-andarai-qui-47",
+      "name": "Feira Rua Silva Teles",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Andaraí",
+      "lat": -22.926,
+      "lng": -43.252,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Silva Teles",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-grajau-sab-48",
+      "name": "Feira Rua Duquesa de Bragança",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Grajaú",
+      "lat": -22.923,
+      "lng": -43.258,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Duquesa de Bragança",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-grajau-ter-49",
+      "name": "Feira Rua Mearim",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Grajaú",
+      "lat": -22.921,
+      "lng": -43.256,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Mearim",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-grajau-sex-50",
+      "name": "Feira Av. Júlio Furtado",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Grajaú",
+      "lat": -22.924,
+      "lng": -43.26,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Av. Júlio Furtado",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-bonsucesso-ter-51",
+      "name": "Feira Rua Mal. Foch",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Bonsucesso",
+      "lat": -22.865,
+      "lng": -43.253,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "07:00–14:30",
+      "address": "Rua Mal. Foch",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-ramos-qui-52",
+      "name": "Feira Rua Senador Mourão Vieira",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Ramos",
+      "lat": -22.85,
+      "lng": -43.255,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "07:00–14:30",
+      "address": "Rua Senador Mourão Vieira",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-ramos-sab-53",
+      "name": "Feira Rua Felisbelo Freire",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Ramos",
+      "lat": -22.852,
+      "lng": -43.257,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "07:00–14:30",
+      "address": "Rua Felisbelo Freire",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-olaria-sex-54",
+      "name": "Feira Rua Antônio Rego",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Olaria",
+      "lat": -22.845,
+      "lng": -43.268,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "07:00–14:30",
+      "address": "Rua Antônio Rego",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-olaria-qua-55",
+      "name": "Feira Rua Firmino Gameleira",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Olaria",
+      "lat": -22.847,
+      "lng": -43.27,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "07:00–14:30",
+      "address": "Rua Firmino Gameleira",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-penha-dom-56",
+      "name": "Feira Rua Belisário Pena",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Penha",
+      "lat": -22.84,
+      "lng": -43.278,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "07:00–14:30",
+      "address": "Rua Belisário Pena",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-penha-qui-57",
+      "name": "Feira Rua Gal. Silveira Sobrinho",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Penha",
+      "lat": -22.838,
+      "lng": -43.28,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "07:00–14:30",
+      "address": "Rua Gal. Silveira Sobrinho",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-barra-da-tijuca-sab-58",
+      "name": "Feira Rua São Perpétuo",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Barra da Tijuca",
+      "lat": -23.0,
+      "lng": -43.365,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua São Perpétuo",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-engenho-de-dentro-ter-59",
+      "name": "Feira Rua Catulo Cearense",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Engenho de Dentro",
+      "lat": -22.898,
+      "lng": -43.295,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Catulo Cearense",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rj-campinho-ter-60",
+      "name": "Feira Rua Ana Teles",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Campinho",
+      "lat": -22.885,
+      "lng": -43.345,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "07:00–14:30",
+      "address": "Rua Ana Teles",
+      "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-santa-terezinha-qua-01",
+      "name": "Feira  do Santa Terezinha",
+      "city": "Cuiabá",
+      "neighborhood": "Santa Terezinha",
+      "lat": -15.5968,
+      "lng": -56.0465,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "16:00–22:00",
+      "address": "Av. A com Av. B",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-primeiro-de-marco-sab-02",
+      "name": "Feira 1º de Março",
+      "city": "Cuiabá",
+      "neighborhood": "Primeiro de Março",
+      "lat": -15.6126,
+      "lng": -56.05,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "16:00–22:00",
+      "address": "Av. Principal",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-distrito-de-nossa-senhora-da-guia-sab-03",
+      "name": "Feira Distrito da Guia",
+      "city": "Cuiabá",
+      "neighborhood": "Distrito de Nossa Senhora da Guia",
+      "lat": -15.5194,
+      "lng": -56.1485,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "16:00–22:00",
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-jd-das-palmeiras-qua-04",
+      "name": "Feira Jardim das Palmeiras",
+      "city": "Cuiabá",
+      "neighborhood": "Jd das Palmeiras",
+      "lat": -15.6232,
+      "lng": -56.062,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "16:00–22:00",
+      "address": "Bairro Jd das Palmeiras",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-pedra-90-dom-05",
+      "name": "Feira Pedra 90",
+      "city": "Cuiabá",
+      "neighborhood": "Pedra 90",
+      "lat": -15.615,
+      "lng": -56.015,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "06:00–12:00",
+      "address": "Rua 12 (ao lado da escola)",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-preiro-sab-06",
+      "name": "Feira Praeiro",
+      "city": "Cuiabá",
+      "neighborhood": "Preiro",
+      "lat": -15.5958,
+      "lng": -56.0815,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "16:00–22:00",
+      "address": "Rua Manaíra / Paquetá",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-jd-ribeirao-do-lipa-qui-07",
+      "name": "Feira Ribeirão do Lipa",
+      "city": "Cuiabá",
+      "neighborhood": "Jd Ribeirão do Lipa",
+      "lat": -15.658,
+      "lng": -56.05,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "16:00–22:00",
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-centro-historico-qui-08",
+      "name": "Feira da Boa Morte",
+      "city": "Cuiabá",
+      "neighborhood": "Centro Histórico",
+      "lat": -15.6028,
+      "lng": -56.0955,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "06:00–12:00",
+      "address": "Ao lado da Igreja da Boa Morte",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-residencial-despraiado-sab-09",
+      "name": "Feira do  Despraiado",
+      "city": "Cuiabá",
+      "neighborhood": "Residencial Despraiado",
+      "lat": -15.6706,
+      "lng": -56.037,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "16:00–22:00",
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-altos-da-serra-sab-10",
+      "name": "Feira do Altos da Serra",
+      "city": "Cuiabá",
+      "neighborhood": "Altos da Serra",
+      "lat": -15.6894,
+      "lng": -56.053,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "16:00–22:00",
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-jd-alvorada-qui-11",
+      "name": "Feira do Alvorada",
+      "city": "Cuiabá",
+      "neighborhood": "Jd Alvorada",
+      "lat": -15.6182,
+      "lng": -56.0965,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "16:00–22:00",
+      "address": "Rua Jacarandá",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-araes-sex-12",
+      "name": "Feira do Araés",
+      "city": "Cuiabá",
+      "neighborhood": "Araés",
+      "lat": -15.582,
+      "lng": -56.09,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "16:00–22:00",
+      "address": "Rua Tenente Eulálio Guerra",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-bela-vista-qua-13",
+      "name": "Feira do Bela Vista",
+      "city": "Cuiabá",
+      "neighborhood": "Bela Vista",
+      "lat": -15.6058,
+      "lng": -56.0685,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "16:00–22:00",
+      "address": "Av. Jurumirim",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-cpa-ii-dom-14",
+      "name": "Feira do CPA II",
+      "city": "Cuiabá",
+      "neighborhood": "CPA II",
+      "lat": -15.557488,
+      "lng": -56.048089,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "06:00–12:00",
+      "address": "Avenida Brasil",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "cba-feira-do-cpa-iii-setor-2-qua-15",
+      "name": "Feira do CPA III - Setor 2",
+      "city": "Cuiabá",
+      "neighborhood": "Cuiabá",
+      "lat": -15.6028,
+      "lng": -56.1,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "16:00–22:00",
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-cpa-iii-sex-16",
+      "name": "Feira do CPA III - Setor 3",
+      "city": "Cuiabá",
+      "neighborhood": "CPA III",
+      "lat": -15.5756,
+      "lng": -56.0415,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "16:00–22:00",
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-coophema-ter-17",
+      "name": "Feira do Coophema",
+      "city": "Cuiabá",
+      "neighborhood": "Coophema",
+      "lat": -15.6394,
+      "lng": -56.055,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "16:00–22:00",
+      "address": "Rua Nova Iguaçu",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-dr-fabio-ter-18",
+      "name": "Feira do Dr Fábio",
+      "city": "Cuiabá",
+      "neighborhood": "Dr Fábio",
+      "lat": -15.6032,
+      "lng": -56.0535,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "16:00–22:00",
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-duque-de-caxias-sab-19",
+      "name": "Feira do Duque de Caxias",
+      "city": "Cuiabá",
+      "neighborhood": "Duque de Caxias",
+      "lat": -15.592,
+      "lng": -56.107,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "06:00–12:00",
+      "address": "Praça Moitará",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-grande-terceiro-qua-20",
+      "name": "Feira do Grande Terceiro",
+      "city": "Cuiabá",
+      "neighborhood": "Grande Terceiro",
+      "lat": -15.6258,
+      "lng": -56.083,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "16:00–22:00",
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-recanto-dos-passaros-sex-21",
+      "name": "Feira do Imperial",
+      "city": "Cuiabá",
+      "neighborhood": "Recanto dos Pássaros",
+      "lat": -15.658,
+      "lng": -56.0715,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "16:00–22:00",
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-jd-florianopolis-qui-22",
+      "name": "Feira do Jd. Florianópolis",
+      "city": "Cuiabá",
+      "neighborhood": "Jd Florianópolis",
+      "lat": -15.6368,
+      "lng": -56.045,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "16:00–22:00",
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-jardim-vitoria-sex-23",
+      "name": "Feira do Jd. Vitória",
+      "city": "Cuiabá",
+      "neighborhood": "Jardim Vitória",
+      "lat": -15.6506,
+      "lng": -56.0285,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "16:00–22:00",
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-morada-do-ouro-sex-24",
+      "name": "Feira do Morada do Ouro",
+      "city": "Cuiabá",
+      "neighborhood": "Morada do Ouro",
+      "lat": -15.5694,
+      "lng": -56.067,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "16:00–22:00",
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-osmar-cabral-qui-25",
+      "name": "Feira do Osmar Cabral",
+      "city": "Cuiabá",
+      "neighborhood": "Osmar Cabral",
+      "lat": -15.6382,
+      "lng": -56.003,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "06:00–12:00",
+      "address": "Av. Domingas Alves da Costa, 320",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-osmar-cabral-dom-26",
+      "name": "Feira do Osmar Cabral",
+      "city": "Cuiabá",
+      "neighborhood": "Osmar Cabral",
+      "lat": -15.637,
+      "lng": -56.0015,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "06:00–12:00",
+      "address": "Av. Domingas Alves da Costa, 320",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-residencial-paiaguais-sab-27",
+      "name": "Feira do Paiaguais",
+      "city": "Cuiabá",
+      "neighborhood": "Residencial paiaguais",
+      "lat": -15.5558,
+      "lng": -56.09,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "16:00–22:00",
+      "address": "Avenida Kaytó",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-pascoal-ramos-sab-28",
+      "name": "Feira do Pascoal Ramos",
+      "city": "Cuiabá",
+      "neighborhood": "Pascoal Ramos",
+      "lat": -15.583,
+      "lng": -56.0185,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "16:00–22:00",
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-pedregal-dom-29",
+      "name": "Feira do Pedregal",
+      "city": "Cuiabá",
+      "neighborhood": "Pedregal",
+      "lat": -15.6068,
+      "lng": -56.022,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "06:00–12:00",
+      "address": "Rua Manaíra",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-pocao-qua-30",
+      "name": "Feira do Poção",
+      "city": "Cuiabá",
+      "neighborhood": "Poção",
+      "lat": -15.5906,
+      "lng": -56.063,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "16:00–22:00",
+      "address": "Avenida Amarílio de Almeida",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-parque-cuiaba-sex-31",
+      "name": "Feira do Pq. Cuiabá",
+      "city": "Cuiabá",
+      "neighborhood": "Parque Cuiabá",
+      "lat": -15.6144,
+      "lng": -56.0365,
+      "daysOfWeek": [
+        "sexta"
+      ],
+      "hours": "16:00–22:00",
+      "address": "Av. Valter Caluci / Av. P",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-jd-renascer-qui-32",
+      "name": "Feira do Renascer",
+      "city": "Cuiabá",
+      "neighborhood": "Jd Renascer",
+      "lat": -15.6432,
+      "lng": -56.02,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "16:00–22:00",
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-santa-ines-ter-33",
+      "name": "Feira do Res. Santa Inês",
+      "city": "Cuiabá",
+      "neighborhood": "Santa Inês",
+      "lat": -15.627,
+      "lng": -56.0985,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "16:00–22:00",
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-santa-terezinha-qua-sab-34",
+      "name": "Feira do Santa Terezinha",
+      "city": "Cuiabá",
+      "neighborhood": "Santa Terezinha",
+      "lat": -15.5908,
+      "lng": -56.042,
+      "daysOfWeek": [
+        "quarta",
+        "sabado"
+      ],
+      "hours": "16:00–22:00",
+      "address": "Av. A com Av. B",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-sol-nascente-sab-35",
+      "name": "Feira do Sol Nascente",
+      "city": "Cuiabá",
+      "neighborhood": "Sol Nascente",
+      "lat": -15.668,
+      "lng": -56.018,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "16:00–22:00",
+      "address": "Av. Gov. Dante Martins de Oliveira",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-terra-nova-sab-36",
+      "name": "Feira do Terra Nova",
+      "city": "Cuiabá",
+      "neighborhood": "Terra Nova",
+      "lat": -15.5768,
+      "lng": -56.1015,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "06:00–12:00",
+      "address": "Praça Central",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-tijucal-qui-37",
+      "name": "Feira do Tijucal - Setor 1",
+      "city": "Cuiabá",
+      "neighborhood": "Tijucal",
+      "lat": -15.6206,
+      "lng": -56.015,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "16:00–22:00",
+      "address": "Setor I/II – vias locais",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-tijucal-sab-38",
+      "name": "Feira do Tijucal - Setor 2",
+      "city": "Cuiabá",
+      "neighborhood": "Tijucal",
+      "lat": -15.6194,
+      "lng": -56.0135,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "16:00–22:00",
+      "address": "Setor I/II – vias locais",
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "cba-tres-barras-sab-39",
+      "name": "Feira do Tres Barras",
+      "city": "Cuiabá",
+      "neighborhood": "Tres Barras",
+      "lat": -15.6782,
+      "lng": -56.057,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "16:00–22:00",
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
+      "accuracy": "approximate"
+    }
+  ],
+  "meta": {
+    "generatedAt": "2026-09-12",
+    "cities": [
+      "Rio de Janeiro",
+      "São Paulo",
+      "Cuiabá"
+    ],
+    "notes": "Não inventamos horários oficiais precisos além do que consta nas fontes municipais. Coordenadas aproximadas estão marcadas com accuracy=approximate."
+  }
+}
