@@ -7,14 +7,14 @@ interface Props {
   feira: Feira;
   selected?: boolean;
   onSelect?: (feira: Feira) => void;
+  onOpenFeed?: (feira: Feira) => void;
 }
 
-export function FeiraCard({ feira, selected, onSelect }: Props) {
+export function FeiraCard({ feira, selected, onSelect, onOpenFeed }: Props) {
   return (
-    <button
-      type="button"
+    <div
       onClick={() => onSelect?.(feira)}
-      className={`w-full text-left rounded-xl border p-3 transition shadow-sm hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 ${
+      className={`w-full text-left rounded-xl border p-3 transition shadow-sm hover:shadow-md cursor-pointer ${
         selected
           ? "border-amber-500 bg-amber-50 ring-1 ring-amber-400"
           : "border-orange-100 bg-white hover:border-amber-300"
@@ -43,6 +43,22 @@ export function FeiraCard({ feira, selected, onSelect }: Props) {
       {feira.address && (
         <p className="mt-1 text-xs text-stone-500 line-clamp-2">{feira.address}</p>
       )}
-    </button>
+
+      <div className="mt-2.5 flex items-center justify-between pt-2 border-t border-stone-100">
+        <button
+          type="button"
+          onClick={(e) => {
+            e.stopPropagation();
+            onOpenFeed?.(feira);
+          }}
+          className="inline-flex items-center gap-1 text-[11px] font-semibold text-amber-800 bg-amber-100/80 hover:bg-amber-200 px-2.5 py-1 rounded-lg transition"
+        >
+          💬 Mural & Preços
+        </button>
+        <span className="text-[11px] text-stone-400 font-medium hover:text-amber-600">
+          Ver no mapa →
+        </span>
+      </div>
+    </div>
   );
 }

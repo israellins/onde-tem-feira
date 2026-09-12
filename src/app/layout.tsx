@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Onde tem feira",
+  title: "Onde tem feira — Mapa, Lista de Compras e Mural da Feira",
   description:
-    "Mapa das feiras livres no Brasil — Rio de Janeiro, São Paulo e Cuiabá. Filtre por dia, cidade e bairro.",
+    "Mapa das feiras livres no Brasil — Rio de Janeiro, São Paulo, Cuiabá, Belo Horizonte, Brasília, Salvador, Curitiba, Porto Alegre, Recife e mais. Filtre por dia, cidade e bairro, crie sua lista de compras e confira postagens com preços atualizados.",
   openGraph: {
-    title: "Onde tem feira",
+    title: "Onde tem feira — Mapa e Comunidade de Feiras Livres",
     description:
-      "Encontre feiras livres em Rio, São Paulo e Cuiabá no mapa interativo.",
+      "Encontre feiras livres em várias cidades do Brasil, crie sua lista de compras e compartilhe fotos e preços com a comunidade.",
     locale: "pt_BR",
     type: "website",
   },
@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-stone-50 text-stone-900`}
       >
         {children}
       </body>

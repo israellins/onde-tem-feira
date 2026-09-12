@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import {
   MapContainer,
   TileLayer,
@@ -47,23 +47,50 @@ function FitBounds({
   city: string;
 }) {
   const map = useMap();
+  const prevCityRef = useRef<string>(city);
+  const prevSelectedIdRef = useRef<string | null>(selected?.id ?? null);
+  const isInitializedRef = useRef<boolean>(false);
 
   useEffect(() => {
-    if (selected) {
+    const cityChanged = prevCityRef.current !== city;
+    const selectedChanged = prevSelectedIdRef.current !== (selected?.id ?? null);
+
+    prevCityRef.current = city;
+    prevSelectedIdRef.current = selected?.id ?? null;
+
+    // Initial mount behavior
+    if (!isInitializedRef.current) {
+      isInitializedRef.current = true;
+      if (selected) {
+        map.flyTo([selected.lat, selected.lng], 15, { duration: 0.6 });
+      } else if (city && CITY_CENTERS[city]) {
+        const c = CITY_CENTERS[city];
+        map.setView([c.lat, c.lng], c.zoom);
+      } else if (feiras.length > 0) {
+        const bounds = L.latLngBounds(feiras.map((f) => [f.lat, f.lng]));
+        map.fitBounds(bounds.pad(0.15));
+      }
+      return;
+    }
+
+    // Fly to selected feira when clicked
+    if (selectedChanged && selected) {
       map.flyTo([selected.lat, selected.lng], 15, { duration: 0.6 });
       return;
     }
-    if (feiras.length === 0) {
-      const c = city && CITY_CENTERS[city] ? CITY_CENTERS[city] : DEFAULT_CENTER;
-      map.setView([c.lat, c.lng], c.zoom);
-      return;
+
+    // Reposition ONLY when city explicitly changes
+    if (cityChanged) {
+      if (city && CITY_CENTERS[city]) {
+        const c = CITY_CENTERS[city];
+        map.setView([c.lat, c.lng], c.zoom);
+      } else if (feiras.length > 0) {
+        const bounds = L.latLngBounds(feiras.map((f) => [f.lat, f.lng]));
+        map.fitBounds(bounds.pad(0.15));
+      } else {
+        map.setView([DEFAULT_CENTER.lat, DEFAULT_CENTER.lng], DEFAULT_CENTER.zoom);
+      }
     }
-    if (feiras.length === 1) {
-      map.setView([feiras[0].lat, feiras[0].lng], 14);
-      return;
-    }
-    const bounds = L.latLngBounds(feiras.map((f) => [f.lat, f.lng]));
-    map.fitBounds(bounds.pad(0.15));
   }, [feiras, selected, city, map]);
 
   return null;
@@ -74,9 +101,10 @@ interface Props {
   selected: Feira | null;
   city: string;
   onSelect: (feira: Feira) => void;
+  onOpenFeed?: (feira: Feira) => void;
 }
 
-export default function FeiraMap({ feiras, selected, city, onSelect }: Props) {
+export default function FeiraMap({ feiras, selected, city, onSelect, onOpenFeed }: Props) {
   const center = useMemo(() => {
     if (city && CITY_CENTERS[city]) return CITY_CENTERS[city];
     return DEFAULT_CENTER;
@@ -104,8 +132,8 @@ export default function FeiraMap({ feiras, selected, city, onSelect }: Props) {
           }}
         >
           <Popup>
-            <div className="min-w-[180px] text-sm">
-              <strong className="block text-stone-900">{f.name}</strong>
+            <div className="min-w-[190px] text-sm">
+              <strong className="block text-stone-900 font-bold">{f.name}</strong>
               <span className="block text-stone-600 mt-1">
                 {f.neighborhood} · {f.city}
               </span>
@@ -116,6 +144,14 @@ export default function FeiraMap({ feiras, selected, city, onSelect }: Props) {
               {f.address && (
                 <span className="block text-stone-500 mt-1">{f.address}</span>
               )}
+
+              <button
+                type="button"
+                onClick={() => onOpenFeed?.(f)}
+                className="mt-2.5 w-full bg-amber-600 hover:bg-amber-700 text-white font-semibold py-1.5 px-3 rounded-lg text-xs transition shadow-sm"
+              >
+                💬 Ver Mural & Preços
+              </button>
             </div>
           </Popup>
         </Marker>

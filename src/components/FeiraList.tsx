@@ -7,9 +7,10 @@ interface Props {
   feiras: Feira[];
   selectedId?: string | null;
   onSelect: (feira: Feira) => void;
+  onOpenFeed?: (feira: Feira) => void;
 }
 
-export function FeiraList({ feiras, selectedId, onSelect }: Props) {
+export function FeiraList({ feiras, selectedId, onSelect, onOpenFeed }: Props) {
   if (feiras.length === 0) {
     return (
       <div className="rounded-xl border border-dashed border-orange-200 bg-orange-50/50 p-6 text-center text-sm text-stone-600">
@@ -27,6 +28,7 @@ export function FeiraList({ feiras, selectedId, onSelect }: Props) {
             feira={f}
             selected={f.id === selectedId}
             onSelect={onSelect}
+            onOpenFeed={onOpenFeed}
           />
         </li>
       ))}

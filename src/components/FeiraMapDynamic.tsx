@@ -17,6 +17,7 @@ interface Props {
   selected: Feira | null;
   city: string;
   onSelect: (feira: Feira) => void;
+  onOpenFeed?: (feira: Feira) => void;
 }
 
 export function FeiraMapDynamic(props: Props) {

@@ -1760,7 +1760,7 @@
       "name": "Feira Rua São Perpétuo",
       "city": "Rio de Janeiro",
       "neighborhood": "Barra da Tijuca",
-      "lat": -23.0,
+      "lat": -23,
       "lng": -43.365,
       "daysOfWeek": [
         "sabado"
@@ -2385,6 +2385,468 @@
       "address": null,
       "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
       "accuracy": "approximate"
+    },
+    {
+      "id": "bh-savassi-sab-01",
+      "name": "Feira Livre Savassi",
+      "city": "Belo Horizonte",
+      "neighborhood": "Savassi",
+      "lat": -19.9382,
+      "lng": -43.9331,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Tomé de Souza, 800",
+      "source": "Prefeitura de Belo Horizonte (Feiras Livres Municipais)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "bh-feirarte-dom-02",
+      "name": "Feira de Artesanato da Afonso Pena (Feirarte)",
+      "city": "Belo Horizonte",
+      "neighborhood": "Centro",
+      "lat": -19.9231,
+      "lng": -43.9352,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Av. Afonso Pena, 1500",
+      "source": "Prefeitura de Belo Horizonte",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "bh-floresta-qui-03",
+      "name": "Feira Orgânica Floresta",
+      "city": "Belo Horizonte",
+      "neighborhood": "Floresta",
+      "lat": -19.9145,
+      "lng": -43.9278,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "07:00–12:30",
+      "address": "Praça Marechal Deodoro",
+      "source": "Prefeitura de Belo Horizonte",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "bh-prado-ter-04",
+      "name": "Feira Livre Prado",
+      "city": "Belo Horizonte",
+      "neighborhood": "Prado",
+      "lat": -19.9264,
+      "lng": -43.9612,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Rua Platina, 450",
+      "source": "Prefeitura de Belo Horizonte",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "df-asa-norte-304-sab-01",
+      "name": "Feira Agroecológica da 304 Norte",
+      "city": "Brasília",
+      "neighborhood": "Asa Norte",
+      "lat": -15.7761,
+      "lng": -47.8839,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "06:30–12:30",
+      "address": "EQN 304/305 (Entre-bloco)",
+      "source": "EMATER-DF / Governo do Distrito Federal",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "df-asa-sul-315-qua-02",
+      "name": "Feira Orgânica da 315 Sul",
+      "city": "Brasília",
+      "neighborhood": "Asa Sul",
+      "lat": -15.8208,
+      "lng": -47.9233,
+      "daysOfWeek": [
+        "quarta"
+      ],
+      "hours": "06:30–12:00",
+      "address": "EQS 315/316",
+      "source": "EMATER-DF / Governo do Distrito Federal",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "df-guara-sex-03",
+      "name": "Feira do Guará",
+      "city": "Brasília",
+      "neighborhood": "Guará",
+      "lat": -15.8239,
+      "lng": -47.9814,
+      "daysOfWeek": [
+        "quinta",
+        "sexta",
+        "sabado",
+        "domingo"
+      ],
+      "hours": "08:00–18:00",
+      "address": "SRIA QI 9 - Guará I",
+      "source": "Administração Regional do Guará",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "df-cruzeiro-sab-04",
+      "name": "Feira Permanente do Cruzeiro",
+      "city": "Brasília",
+      "neighborhood": "Cruzeiro Velho",
+      "lat": -15.7922,
+      "lng": -47.9389,
+      "daysOfWeek": [
+        "quarta",
+        "quinta",
+        "sexta",
+        "sabado",
+        "domingo"
+      ],
+      "hours": "08:00–18:00",
+      "address": "SREIA Quadra 811 - Cruzeiro Velho",
+      "source": "Administração Regional do Cruzeiro",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "cwb-ucrania-qui-01",
+      "name": "Feira Noturna da Praça da Ucrânia",
+      "city": "Curitiba",
+      "neighborhood": "Bigorrilho",
+      "lat": -25.4358,
+      "lng": -49.2941,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "17:00–21:00",
+      "address": "Praça da Ucrânia (Padre Anchieta)",
+      "source": "Prefeitura Municipal de Curitiba (SMSAN)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "cwb-largo-dom-02",
+      "name": "Feira do Largo da Ordem (Feirarte)",
+      "city": "Curitiba",
+      "neighborhood": "São Francisco",
+      "lat": -25.4278,
+      "lng": -49.2719,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "09:00–14:00",
+      "address": "Rua São Francisco / Setor Histórico",
+      "source": "Prefeitura Municipal de Curitiba",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "cwb-batel-sab-03",
+      "name": "Feira Orgânica do Batel",
+      "city": "Curitiba",
+      "neighborhood": "Batel",
+      "lat": -25.4429,
+      "lng": -49.2882,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "07:00–12:00",
+      "address": "Rua Carneiro Lobo, 300",
+      "source": "Prefeitura Municipal de Curitiba (SMSAN)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "cwb-juveve-ter-04",
+      "name": "Feira Livre Juvevê",
+      "city": "Curitiba",
+      "neighborhood": "Juvevê",
+      "lat": -25.4185,
+      "lng": -49.2612,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "07:00–11:30",
+      "address": "Rua Alberto Folloni",
+      "source": "Prefeitura Municipal de Curitiba (SMSAN)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "poa-redencao-sab-01",
+      "name": "Feira Ecológica do Bom Fim (Redenção)",
+      "city": "Porto Alegre",
+      "neighborhood": "Bom Fim",
+      "lat": -30.0339,
+      "lng": -51.2131,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Av. José Bonifácio (Parque Farroupilha)",
+      "source": "Prefeitura de Porto Alegre (SMAMUS)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "poa-menino-deus-qua-02",
+      "name": "Feira Orgânica do Menino Deus",
+      "city": "Porto Alegre",
+      "neighborhood": "Menino Deus",
+      "lat": -30.0512,
+      "lng": -51.2228,
+      "daysOfWeek": [
+        "quarta",
+        "sabado"
+      ],
+      "hours": "07:00–12:30",
+      "address": "Pátio da Secretaria da Agricultura",
+      "source": "Prefeitura de Porto Alegre",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "poa-moinhos-ter-03",
+      "name": "Feira Modelo Moinhos de Vento",
+      "city": "Porto Alegre",
+      "neighborhood": "Moinhos de Vento",
+      "lat": -30.0264,
+      "lng": -51.2039,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "07:30–12:30",
+      "address": "Rua Santo Inácio",
+      "source": "Prefeitura de Porto Alegre",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "ssa-sao-joaquim-diario-01",
+      "name": "Feira de São Joaquim",
+      "city": "Salvador",
+      "neighborhood": "Comércio",
+      "lat": -12.9469,
+      "lng": -38.5036,
+      "daysOfWeek": [
+        "segunda",
+        "terca",
+        "quarta",
+        "quinta",
+        "sexta",
+        "sabado",
+        "domingo"
+      ],
+      "hours": "06:00–17:00",
+      "address": "Av. Engenheiro Oscar Pontes",
+      "source": "Prefeitura Municipal de Salvador (SEMOP)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "ssa-rio-vermelho-sab-02",
+      "name": "Feira Agroecológica do Rio Vermelho",
+      "city": "Salvador",
+      "neighborhood": "Rio Vermelho",
+      "lat": -12.9845,
+      "lng": -38.4908,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Praça Marques de Valença",
+      "source": "Prefeitura Municipal de Salvador",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "ssa-itapua-dom-03",
+      "name": "Feira Livre de Itapuã",
+      "city": "Salvador",
+      "neighborhood": "Itapuã",
+      "lat": -12.9408,
+      "lng": -38.3639,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "06:00–13:00",
+      "address": "Rua Aristides Milton",
+      "source": "Prefeitura Municipal de Salvador",
+      "accuracy": "approximate"
+    },
+    {
+      "id": "rec-casa-amarela-diario-01",
+      "name": "Feira de Casa Amarela",
+      "city": "Recife",
+      "neighborhood": "Casa Amarela",
+      "lat": -8.0261,
+      "lng": -34.9192,
+      "daysOfWeek": [
+        "segunda",
+        "terca",
+        "quarta",
+        "quinta",
+        "sexta",
+        "sabado",
+        "domingo"
+      ],
+      "hours": "06:00–17:00",
+      "address": "Largo de Casa Amarela",
+      "source": "Prefeitura do Recife (CSURB)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "rec-sitio-trindade-sab-02",
+      "name": "Feira Orgânica do Sítio Trindade",
+      "city": "Recife",
+      "neighborhood": "Casa Amarela",
+      "lat": -8.0298,
+      "lng": -34.9142,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "06:00–11:00",
+      "address": "Estrada do Arraial, 3259",
+      "source": "Prefeitura do Recife",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "rec-boa-viagem-qui-03",
+      "name": "Feira Agroecológica de Boa Viagem",
+      "city": "Recife",
+      "neighborhood": "Boa Viagem",
+      "lat": -8.1258,
+      "lng": -34.8995,
+      "daysOfWeek": [
+        "quinta"
+      ],
+      "hours": "06:00–12:00",
+      "address": "Praça de Boa Viagem",
+      "source": "Prefeitura do Recife",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "for-beira-mar-diario-01",
+      "name": "Feira de Artesanato da Beira Mar",
+      "city": "Fortaleza",
+      "neighborhood": "Meireles",
+      "lat": -3.7258,
+      "lng": -38.4985,
+      "daysOfWeek": [
+        "segunda",
+        "terca",
+        "quarta",
+        "quinta",
+        "sexta",
+        "sabado",
+        "domingo"
+      ],
+      "hours": "16:00–22:00",
+      "address": "Av. Beira Mar, Meireles",
+      "source": "Prefeitura Municipal de Fortaleza",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "for-adahil-barreto-sab-02",
+      "name": "Feira Agroecológica Parque Adahil Barreto",
+      "city": "Fortaleza",
+      "neighborhood": "Dionísio Torres",
+      "lat": -3.7508,
+      "lng": -38.5089,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "06:00–11:00",
+      "address": "Rua Major Virgílio Borba, 120",
+      "source": "Prefeitura Municipal de Fortaleza",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "nit-icarai-dom-01",
+      "name": "Feira Livre de Icaraí",
+      "city": "Niterói",
+      "neighborhood": "Icaraí",
+      "lat": -22.9038,
+      "lng": -43.1092,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "07:00–13:30",
+      "address": "Rua Belisário Augusto",
+      "source": "Prefeitura Municipal de Niterói",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "nit-campo-sao-bento-sab-02",
+      "name": "Feira de Orgânicos Campo de São Bento",
+      "city": "Niterói",
+      "neighborhood": "Icaraí",
+      "lat": -22.9021,
+      "lng": -43.1045,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "07:00–13:00",
+      "address": "Alameda Edmundo de Macedo Soares",
+      "source": "Prefeitura Municipal de Niterói",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "cps-centro-convivencia-sab-01",
+      "name": "Feira de Artes e Alimentos do Cambuí",
+      "city": "Campinas",
+      "neighborhood": "Cambuí",
+      "lat": -22.8988,
+      "lng": -47.0542,
+      "daysOfWeek": [
+        "sabado",
+        "domingo"
+      ],
+      "hours": "08:00–14:00",
+      "address": "Praça Imprensa Fluminense (Centro de Convivência)",
+      "source": "Prefeitura Municipal de Campinas (SETEC)",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "cps-barao-geraldo-ter-02",
+      "name": "Feira Livre de Barão Geraldo",
+      "city": "Campinas",
+      "neighborhood": "Barão Geraldo",
+      "lat": -22.8258,
+      "lng": -47.0789,
+      "daysOfWeek": [
+        "terca"
+      ],
+      "hours": "07:00–12:30",
+      "address": "Praça do Coco, Barão Geraldo",
+      "source": "Prefeitura Municipal de Campinas",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "fln-praca-xv-sab-01",
+      "name": "Feira de Orgânicos Praça XV",
+      "city": "Florianópolis",
+      "neighborhood": "Centro",
+      "lat": -27.5971,
+      "lng": -48.5492,
+      "daysOfWeek": [
+        "sabado"
+      ],
+      "hours": "08:00–13:00",
+      "address": "Praça XV de Novembro",
+      "source": "Prefeitura Municipal de Florianópolis",
+      "accuracy": "official_coords"
+    },
+    {
+      "id": "fln-lagoa-dom-02",
+      "name": "Feira Livre da Lagoa da Conceição",
+      "city": "Florianópolis",
+      "neighborhood": "Lagoa da Conceição",
+      "lat": -27.6045,
+      "lng": -48.4682,
+      "daysOfWeek": [
+        "domingo"
+      ],
+      "hours": "09:00–16:00",
+      "address": "Praça da Lagoa Bento Silveira",
+      "source": "Prefeitura Municipal de Florianópolis",
+      "accuracy": "official_coords"
     }
   ],
   "meta": {
