@@ -10,10 +10,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Mourato Coelho,1100",
+      "hours": null,
+      "address": "Rua Mourato Coelho, 1100",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-santa-cecilia-dom-02",
@@ -25,10 +26,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua  Sebastiao Pereira,553",
+      "hours": null,
+      "address": "Rua Sebastiao Pereira, 553",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-santo-amaro-sex-03",
@@ -40,10 +42,11 @@
       "daysOfWeek": [
         "sexta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Av  Prof Alceu Maynard Araujo,30",
+      "hours": null,
+      "address": "Av Prof Alceu Maynard Araujo, 30",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-chacara-itaim-ter-04",
@@ -55,10 +58,11 @@
       "daysOfWeek": [
         "terca"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Prof Tamandare De Toledo,100",
+      "hours": null,
+      "address": "Rua Prof Tamandare De Toledo, 100",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-aclimacao-sab-05",
@@ -70,10 +74,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Loureiro Da Cruz C/ Urano,1",
+      "hours": null,
+      "address": "Rua Loureiro Da Cruz C/ Urano, 1",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-jabaquara-qui-06",
@@ -85,10 +90,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Av  Ceci,1828",
+      "hours": null,
+      "address": "Av Ceci, 1828",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-aclimacao-sex-07",
@@ -100,10 +106,11 @@
       "daysOfWeek": [
         "sexta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Eng Luiz Gomes C Sangirardi,640",
+      "hours": null,
+      "address": "Rua Eng Luiz Gomes C Sangirardi, 640",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-cerqueira-cezar-qui-08",
@@ -115,10 +122,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Antonio Bicudo,50",
+      "hours": null,
+      "address": "Rua Antonio Bicudo, 50",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-vila-pompeia-sex-09",
@@ -130,10 +138,11 @@
       "daysOfWeek": [
         "sexta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Min Ferreira Alves C/ Tucuna,50",
+      "hours": null,
+      "address": "Rua Min Ferreira Alves C/ Tucuna, 50",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-bom-retiro-sab-10",
@@ -145,10 +154,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Jaragua,129",
+      "hours": null,
+      "address": "Rua Jaragua, 129",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-ipiranga-qui-11",
@@ -160,10 +170,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Dr Mario Vicente,1199",
+      "hours": null,
+      "address": "Rua Dr Mario Vicente, 1199",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-consolacao-dom-12",
@@ -175,10 +186,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Major Quedinho,89",
+      "hours": null,
+      "address": "Rua Major Quedinho, 89",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-pinheiros-ter-13",
@@ -190,10 +202,11 @@
       "daysOfWeek": [
         "terca"
       ],
-      "hours": "08:00–14:00",
-      "address": "Pç  Benedito Calixto,100",
+      "hours": null,
+      "address": "Pç Benedito Calixto, 100",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-cambuci-ter-14",
@@ -205,10 +218,11 @@
       "daysOfWeek": [
         "terca"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Stefano,1000",
+      "hours": null,
+      "address": "Rua Stefano, 1000",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-alto-de-vila-pompeia-qua-15",
@@ -220,10 +234,11 @@
       "daysOfWeek": [
         "quarta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Tavares Bastos,901",
+      "hours": null,
+      "address": "Rua Tavares Bastos, 901",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-tatuape-ter-16",
@@ -235,10 +250,11 @@
       "daysOfWeek": [
         "terca"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Andre Vidal C/ Alm Calheiros,100",
+      "hours": null,
+      "address": "Rua Andre Vidal C/ Alm Calheiros, 100",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-mooca-qua-17",
@@ -250,10 +266,11 @@
       "daysOfWeek": [
         "quarta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Madre De Deus,604",
+      "hours": null,
+      "address": "Rua Madre De Deus, 604",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-campo-belo-qua-18",
@@ -265,10 +282,11 @@
       "daysOfWeek": [
         "quarta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Barao De Jaceguai,1768",
+      "hours": null,
+      "address": "Rua Barao De Jaceguai, 1768",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-ipiranga-dom-19",
@@ -280,10 +298,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua  Agostinho Gomes,352",
+      "hours": null,
+      "address": "Rua Agostinho Gomes, 352",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-vila-sonia-sex-20",
@@ -295,10 +314,11 @@
       "daysOfWeek": [
         "sexta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Av  Gal Francisco Morazan,200",
+      "hours": null,
+      "address": "Av Gal Francisco Morazan, 200",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-lapa-dom-21",
@@ -310,10 +330,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua  Fabia C Aurelia,701",
+      "hours": null,
+      "address": "Rua Fabia C Aurelia, 701",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-alto-das-perdizes-ter-22",
@@ -325,10 +346,11 @@
       "daysOfWeek": [
         "terca"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Min Godoy,1261",
+      "hours": null,
+      "address": "Rua Min Godoy, 1261",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-alto-de-vila-pompeia-sab-23",
@@ -340,10 +362,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Barao Do Bananal C Coari,1000",
+      "hours": null,
+      "address": "Rua Barao Do Bananal C Coari, 1000",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-santana-qua-24",
@@ -355,10 +378,11 @@
       "daysOfWeek": [
         "quarta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Gabriel Pizza,400",
+      "hours": null,
+      "address": "Rua Gabriel Pizza, 400",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-vila-formosa-qua-25",
@@ -370,10 +394,11 @@
       "daysOfWeek": [
         "quarta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Maragojipe,320",
+      "hours": null,
+      "address": "Rua Maragojipe, 320",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-mooca-sab-26",
@@ -385,10 +410,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Tabajaras,100",
+      "hours": null,
+      "address": "Rua Tabajaras, 100",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-brooklin-paulista-sex-27",
@@ -400,10 +426,11 @@
       "daysOfWeek": [
         "sexta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Godoi Colaco,1016",
+      "hours": null,
+      "address": "Rua Godoi Colaco, 1016",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-aclimacao-ter-28",
@@ -415,10 +442,11 @@
       "daysOfWeek": [
         "terca"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Guimaraes Passos,304",
+      "hours": null,
+      "address": "Rua Guimaraes Passos, 304",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-vila-butanta-sab-29",
@@ -430,10 +458,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Jose Alves Da Cunha Lima,172",
+      "hours": null,
+      "address": "Rua Jose Alves Da Cunha Lima, 172",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-alto-da-lapa-qui-30",
@@ -445,10 +474,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Dom Joao V C Sacadura Cabral,85",
+      "hours": null,
+      "address": "Rua Dom Joao V C Sacadura Cabral, 85",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-liberdade-moderna-qua-31",
@@ -460,10 +490,11 @@
       "daysOfWeek": [
         "quarta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Pandia Calogeras,37",
+      "hours": null,
+      "address": "Rua Pandia Calogeras, 37",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-perdizes-sex-32",
@@ -475,10 +506,11 @@
       "daysOfWeek": [
         "sexta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Camaragibe C/ Lopes Chaves,122",
+      "hours": null,
+      "address": "Rua Camaragibe C/ Lopes Chaves, 122",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-butanta-qui-33",
@@ -490,10 +522,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Agostinho Cantu C/ Romao Gomes,1",
+      "hours": null,
+      "address": "Rua Agostinho Cantu C/ Romao Gomes, 1",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-brooklin-paulista-qui-34",
@@ -505,10 +538,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Conde De Porto Alegre,100",
+      "hours": null,
+      "address": "Rua Conde De Porto Alegre, 100",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-jardim-da-saude-dom-35",
@@ -520,10 +554,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "08:00–14:00",
-      "address": "Pç  Bras Goncalves,99",
+      "hours": null,
+      "address": "Pç Bras Goncalves, 99",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-liberdade-sab-36",
@@ -535,10 +570,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Tagua,1",
+      "hours": null,
+      "address": "Rua Tagua, 1",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-feira-livre-ipiranga-sex-37",
@@ -550,10 +586,11 @@
       "daysOfWeek": [
         "sexta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Av  Ipiranga,700",
+      "hours": null,
+      "address": "Av Ipiranga, 700",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-feira-livre-praca-liberdade-qua-38",
@@ -565,10 +602,11 @@
       "daysOfWeek": [
         "quarta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Pç  Liberdade,5145",
+      "hours": null,
+      "address": "Pç Liberdade, 5145",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-conj-residencial-do-butanta-dom-39",
@@ -580,10 +618,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Luis Antonio Martins,21",
+      "hours": null,
+      "address": "Rua Luis Antonio Martins, 21",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-vila-olimpia-dom-40",
@@ -595,10 +634,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua  Helion Povoa,165",
+      "hours": null,
+      "address": "Rua Helion Povoa, 165",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-parque-da-mooca-ter-41",
@@ -610,10 +650,11 @@
       "daysOfWeek": [
         "terca"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Conde Prates,466",
+      "hours": null,
+      "address": "Rua Conde Prates, 466",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-parque-jabaquara-sab-42",
@@ -625,10 +666,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Bonifacio De Abreu,50",
+      "hours": null,
+      "address": "Rua Bonifacio De Abreu, 50",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-central-park-lapa-sab-43",
@@ -640,10 +682,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Dom Romeu Alberti,50",
+      "hours": null,
+      "address": "Rua Dom Romeu Alberti, 50",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-ipiranga-qui-44",
@@ -655,10 +698,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Pç  Pedro Balint,1",
+      "hours": null,
+      "address": "Pç Pedro Balint, 1",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-santana-qui-45",
@@ -670,10 +714,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Av  Engenheiro Caetano Alvares,10000",
+      "hours": null,
+      "address": "Av Engenheiro Caetano Alvares, 10000",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-jardim-vila-carrao-i-dom-46",
@@ -685,10 +730,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "08:00–14:00",
-      "address": "Av  Bassano Del Grapa,100",
+      "hours": null,
+      "address": "Av Bassano Del Grapa, 100",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-jardim-santana-sab-47",
@@ -700,10 +746,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Fruto Do Paraiso,10",
+      "hours": null,
+      "address": "Rua Fruto Do Paraiso, 10",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-jardim-pinheiros-sab-48",
@@ -715,10 +762,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "08:00–14:00",
+      "hours": null,
       "address": null,
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-varzea-da-barra-funda-qua-49",
@@ -730,10 +778,11 @@
       "daysOfWeek": [
         "quarta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua  Quirino Dos Santos",
+      "hours": null,
+      "address": "Rua Quirino Dos Santos",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-tte-godofredo-cerqueira-leite-qui-50",
@@ -745,10 +794,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Tte Godofredo Cerqueira Leite,213",
+      "hours": null,
+      "address": "Rua Tte Godofredo Cerqueira Leite, 213",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-vila-formosa-dom-51",
@@ -760,10 +810,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "08:00–14:00",
-      "address": "Av  Trumain C/ Henrique Morize,500",
+      "hours": null,
+      "address": "Av Trumain C/ Henrique Morize, 500",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-vila-carrao-qui-52",
@@ -775,10 +826,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Dentista Barreto,120",
+      "hours": null,
+      "address": "Rua Dentista Barreto, 120",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-vereda-do-paraiso-qui-53",
@@ -790,10 +842,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Vereda Do Paraiso,18",
+      "hours": null,
+      "address": "Rua Vereda Do Paraiso, 18",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-vila-carrao-dom-54",
@@ -805,10 +858,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua  Comen Gil Pinheiro,325",
+      "hours": null,
+      "address": "Rua Comen Gil Pinheiro, 325",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-vila-santana-sab-55",
@@ -820,10 +874,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Eneas De Barros,425",
+      "hours": null,
+      "address": "Rua Eneas De Barros, 425",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-penha-dom-56",
@@ -835,10 +890,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua  Omacha,530",
+      "hours": null,
+      "address": "Rua Omacha, 530",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-jardim-penha-sab-57",
@@ -850,10 +906,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Do Acapuzal,9",
+      "hours": null,
+      "address": "Rua Do Acapuzal, 9",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-jardim-vila-formosa-sab-58",
@@ -865,10 +922,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "08:00–14:00",
-      "address": "Av  Dom Azeredo Coutinho,125",
+      "hours": null,
+      "address": "Av Dom Azeredo Coutinho, 125",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-tucuruvi-dom-59",
@@ -880,10 +938,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua  Casa Forte,100",
+      "hours": null,
+      "address": "Rua Casa Forte, 100",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "sp-vila-itaim-dom-60",
@@ -895,10 +954,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "08:00–14:00",
-      "address": "Rua Cachoeira Mangaval,37",
+      "hours": null,
+      "address": "Rua Cachoeira Mangaval, 37",
       "source": "GeoSampa / Prefeitura de São Paulo (equipamento_feira_livre, carga 2026-06)",
-      "accuracy": "official_coords"
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "rj-saude-sex-01",
@@ -913,7 +973,8 @@
       "hours": "07:00–13:00",
       "address": "Rua do Livramento",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-caju-dom-02",
@@ -928,7 +989,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Gal. Gurjão",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-centro-sab-03",
@@ -943,7 +1005,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Tadeu Kosciusko",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-centro-qui-04",
@@ -958,7 +1021,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Conde de Lages",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-catumbi-seg-05",
@@ -973,7 +1037,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Emília Guimarães",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-rio-comprido-qua-06",
@@ -988,7 +1053,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Barão de Sertório",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-rio-comprido-sab-07",
@@ -1003,7 +1069,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Costa Ferraz",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-cidade-nova-qui-08",
@@ -1018,7 +1085,8 @@
       "hours": "07:00–13:00",
       "address": "Praça Cel. Castelo Branco",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-estacio-qua-09",
@@ -1033,7 +1101,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Sampaio Ferraz",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-sao-cristovao-qui-10",
@@ -1048,7 +1117,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Gal. Argolo",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-sao-cristovao-dom-11",
@@ -1063,7 +1133,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Gal. Bruce",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-santa-teresa-sex-12",
@@ -1078,7 +1149,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Terezinha",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-flamengo-ter-13",
@@ -1093,7 +1165,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Arno Konder",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-gloria-dom-14",
@@ -1108,7 +1181,8 @@
       "hours": "07:00–13:00",
       "address": "Av. Augusto Severo",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-laranjeiras-sab-15",
@@ -1123,7 +1197,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Prof. Ortiz Monteiro",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-laranjeiras-sex-16",
@@ -1138,7 +1213,8 @@
       "hours": "07:00–13:00",
       "address": "Viaduto Jardel Filho",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-botafogo-sab-17",
@@ -1153,7 +1229,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Paulo Barreto",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-botafogo-seg-18",
@@ -1168,7 +1245,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Vicente de Souza",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-botafogo-qua-19",
@@ -1183,7 +1261,8 @@
       "hours": "07:00–13:00",
       "address": "Praça Nicarágua",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-botafogo-sex-20",
@@ -1198,7 +1277,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Rodrigo de Brito",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-botafogo-ter-21",
@@ -1213,7 +1293,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Barão de Macaúbas",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-humaita-qua-22",
@@ -1228,7 +1309,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Maria Eugênia",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-urca-dom-23",
@@ -1243,7 +1325,8 @@
       "hours": "07:00–13:00",
       "address": "Praça Tenente Gil Guilherme",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-leme-seg-24",
@@ -1258,7 +1341,8 @@
       "hours": "07:00–13:00",
       "address": "Praça Alm. Júlio de Noronha",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-copacabana-dom-25",
@@ -1273,7 +1357,8 @@
       "hours": "07:00–13:00",
       "address": "Praça Serzedelo Correia",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-copacabana-qui-26",
@@ -1288,7 +1373,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Ronald de Carvalho",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-copacabana-qua-27",
@@ -1303,7 +1389,8 @@
       "hours": "07:00–13:00",
       "address": "Praça Edmundo Bittencourt",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-ipanema-sex-28",
@@ -1318,7 +1405,8 @@
       "hours": "07:00–13:00",
       "address": "Praça N.S. da Paz",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-ipanema-seg-29",
@@ -1333,7 +1421,8 @@
       "hours": "07:00–13:00",
       "address": "Av. Epitácio Pessoa",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-ipanema-ter-30",
@@ -1348,7 +1437,8 @@
       "hours": "07:00–13:00",
       "address": "Praça Gal. Osório",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-leblon-qui-31",
@@ -1363,7 +1453,8 @@
       "hours": "07:00–13:00",
       "address": "Praça N.S. Auxiliadora",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-lagoa-dom-32",
@@ -1378,7 +1469,8 @@
       "hours": "07:00–13:00",
       "address": "Av. Lineu de Paula Machado",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-jardim-botanico-sab-33",
@@ -1393,7 +1485,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Frei Leandro",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-gavea-sex-34",
@@ -1408,7 +1501,8 @@
       "hours": "07:00–13:00",
       "address": "Praça Santos Dumont",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-praca-da-bandeira-dom-35",
@@ -1423,7 +1517,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Vicente Licínio",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-tijuca-sex-36",
@@ -1438,7 +1533,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Garibaldi",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-tijuca-sex-37",
@@ -1453,7 +1549,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Alzira Brandão",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-tijuca-seg-38",
@@ -1468,7 +1565,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Aguiar",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-tijuca-ter-39",
@@ -1483,7 +1581,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Gabriela Prado Maia",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-tijuca-ter-40",
@@ -1498,7 +1597,8 @@
       "hours": "07:00–13:00",
       "address": "Praça Prof. Pinheiro Guimarães",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-tijuca-qua-41",
@@ -1513,7 +1613,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Visconde de Figueiredo",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-maracana-qui-42",
@@ -1528,7 +1629,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Moraes e Silva",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-maracana-sab-43",
@@ -1543,7 +1645,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Prof. Manoel de Abreu",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-vila-isabel-ter-44",
@@ -1558,7 +1661,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Jorge Rudge",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-vila-isabel-qua-45",
@@ -1573,7 +1677,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Mendes Tavares",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-andarai-dom-46",
@@ -1588,7 +1693,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Araripe Júnior",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-andarai-qui-47",
@@ -1603,7 +1709,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Silva Teles",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-grajau-sab-48",
@@ -1618,7 +1725,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Duquesa de Bragança",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-grajau-ter-49",
@@ -1633,7 +1741,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Mearim",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-grajau-sex-50",
@@ -1648,7 +1757,8 @@
       "hours": "07:00–13:00",
       "address": "Av. Júlio Furtado",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-bonsucesso-ter-51",
@@ -1663,7 +1773,8 @@
       "hours": "07:00–14:30",
       "address": "Rua Mal. Foch",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-ramos-qui-52",
@@ -1678,7 +1789,8 @@
       "hours": "07:00–14:30",
       "address": "Rua Senador Mourão Vieira",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-ramos-sab-53",
@@ -1693,7 +1805,8 @@
       "hours": "07:00–14:30",
       "address": "Rua Felisbelo Freire",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-olaria-sex-54",
@@ -1708,7 +1821,8 @@
       "hours": "07:00–14:30",
       "address": "Rua Antônio Rego",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-olaria-qua-55",
@@ -1723,7 +1837,8 @@
       "hours": "07:00–14:30",
       "address": "Rua Firmino Gameleira",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-penha-dom-56",
@@ -1738,7 +1853,8 @@
       "hours": "07:00–14:30",
       "address": "Rua Belisário Pena",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-penha-qui-57",
@@ -1753,7 +1869,8 @@
       "hours": "07:00–14:30",
       "address": "Rua Gal. Silveira Sobrinho",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-barra-da-tijuca-sab-58",
@@ -1768,7 +1885,8 @@
       "hours": "07:00–13:00",
       "address": "Rua São Perpétuo",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-engenho-de-dentro-ter-59",
@@ -1783,7 +1901,8 @@
       "hours": "07:00–13:00",
       "address": "Rua Catulo Cearense",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "rj-campinho-ter-60",
@@ -1798,11 +1917,12 @@
       "hours": "07:00–14:30",
       "address": "Rua Ana Teles",
       "source": "Prefeitura do Rio / SEOP – Relação das Feiras Livres (lista municipal). Coordenadas aproximadas por geocodificação do endereço/bairro.",
-      "accuracy": "approximate"
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-santa-terezinha-qua-01",
-      "name": "Feira  do Santa Terezinha",
+      "name": "Feira do Santa Terezinha",
       "city": "Cuiabá",
       "neighborhood": "Santa Terezinha",
       "lat": -15.5968,
@@ -1810,10 +1930,11 @@
       "daysOfWeek": [
         "quarta"
       ],
-      "hours": "16:00–22:00",
-      "address": "Av. A com Av. B",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "hours": null,
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-primeiro-de-marco-sab-02",
@@ -1825,10 +1946,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "16:00–22:00",
-      "address": "Av. Principal",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "hours": null,
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-distrito-de-nossa-senhora-da-guia-sab-03",
@@ -1840,10 +1962,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": null,
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-jd-das-palmeiras-qua-04",
@@ -1855,10 +1978,11 @@
       "daysOfWeek": [
         "quarta"
       ],
-      "hours": "16:00–22:00",
-      "address": "Bairro Jd das Palmeiras",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "hours": null,
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-pedra-90-dom-05",
@@ -1870,10 +1994,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "06:00–12:00",
+      "hours": null,
       "address": "Rua 12 (ao lado da escola)",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-preiro-sab-06",
@@ -1885,10 +2010,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": "Rua Manaíra / Paquetá",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-jd-ribeirao-do-lipa-qui-07",
@@ -1900,10 +2026,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": null,
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-centro-historico-qui-08",
@@ -1915,14 +2042,15 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "06:00–12:00",
+      "hours": null,
       "address": "Ao lado da Igreja da Boa Morte",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-residencial-despraiado-sab-09",
-      "name": "Feira do  Despraiado",
+      "name": "Feira do Despraiado",
       "city": "Cuiabá",
       "neighborhood": "Residencial Despraiado",
       "lat": -15.6706,
@@ -1930,10 +2058,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": null,
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-altos-da-serra-sab-10",
@@ -1945,10 +2074,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": null,
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-jd-alvorada-qui-11",
@@ -1960,10 +2090,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": "Rua Jacarandá",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-araes-sex-12",
@@ -1975,10 +2106,11 @@
       "daysOfWeek": [
         "sexta"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": "Rua Tenente Eulálio Guerra",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-bela-vista-qua-13",
@@ -1990,10 +2122,11 @@
       "daysOfWeek": [
         "quarta"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": "Av. Jurumirim",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-cpa-ii-dom-14",
@@ -2005,10 +2138,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "06:00–12:00",
+      "hours": null,
       "address": "Avenida Brasil",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "official_coords"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "official_coords",
+      "verified": true
     },
     {
       "id": "cba-feira-do-cpa-iii-setor-2-qua-15",
@@ -2020,10 +2154,11 @@
       "daysOfWeek": [
         "quarta"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": null,
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-cpa-iii-sex-16",
@@ -2035,10 +2170,11 @@
       "daysOfWeek": [
         "sexta"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": null,
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-coophema-ter-17",
@@ -2050,10 +2186,11 @@
       "daysOfWeek": [
         "terca"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": "Rua Nova Iguaçu",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-dr-fabio-ter-18",
@@ -2065,10 +2202,11 @@
       "daysOfWeek": [
         "terca"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": null,
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-duque-de-caxias-sab-19",
@@ -2080,10 +2218,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "06:00–12:00",
+      "hours": null,
       "address": "Praça Moitará",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-grande-terceiro-qua-20",
@@ -2095,10 +2234,11 @@
       "daysOfWeek": [
         "quarta"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": null,
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-recanto-dos-passaros-sex-21",
@@ -2110,10 +2250,11 @@
       "daysOfWeek": [
         "sexta"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": null,
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-jd-florianopolis-qui-22",
@@ -2125,10 +2266,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": null,
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-jardim-vitoria-sex-23",
@@ -2140,10 +2282,11 @@
       "daysOfWeek": [
         "sexta"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": null,
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-morada-do-ouro-sex-24",
@@ -2155,10 +2298,11 @@
       "daysOfWeek": [
         "sexta"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": null,
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-osmar-cabral-qui-25",
@@ -2170,10 +2314,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "06:00–12:00",
+      "hours": null,
       "address": "Av. Domingas Alves da Costa, 320",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-osmar-cabral-dom-26",
@@ -2185,10 +2330,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "06:00–12:00",
+      "hours": null,
       "address": "Av. Domingas Alves da Costa, 320",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-residencial-paiaguais-sab-27",
@@ -2200,10 +2346,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": "Avenida Kaytó",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-pascoal-ramos-sab-28",
@@ -2215,10 +2362,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": null,
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-pedregal-dom-29",
@@ -2230,10 +2378,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "06:00–12:00",
+      "hours": null,
       "address": "Rua Manaíra",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-pocao-qua-30",
@@ -2245,10 +2394,11 @@
       "daysOfWeek": [
         "quarta"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": "Avenida Amarílio de Almeida",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-parque-cuiaba-sex-31",
@@ -2260,10 +2410,11 @@
       "daysOfWeek": [
         "sexta"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": "Av. Valter Caluci / Av. P",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-jd-renascer-qui-32",
@@ -2275,10 +2426,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": null,
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-santa-ines-ter-33",
@@ -2290,10 +2442,11 @@
       "daysOfWeek": [
         "terca"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": null,
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-santa-terezinha-qua-sab-34",
@@ -2306,10 +2459,11 @@
         "quarta",
         "sabado"
       ],
-      "hours": "16:00–22:00",
-      "address": "Av. A com Av. B",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "hours": null,
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-sol-nascente-sab-35",
@@ -2321,10 +2475,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": "Av. Gov. Dante Martins de Oliveira",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-terra-nova-sab-36",
@@ -2336,10 +2491,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "06:00–12:00",
-      "address": "Praça Central",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "hours": null,
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-tijucal-qui-37",
@@ -2351,10 +2507,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "16:00–22:00",
-      "address": "Setor I/II – vias locais",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "hours": null,
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-tijucal-sab-38",
@@ -2366,10 +2523,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "16:00–22:00",
-      "address": "Setor I/II – vias locais",
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "hours": null,
+      "address": null,
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "cba-tres-barras-sab-39",
@@ -2381,10 +2539,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": null,
-      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando não informados na API.",
-      "accuracy": "approximate"
+      "source": "Portal Feiras Cuiabá (feiras.cuiaba.mt.gov.br/api/feiras). Coordenadas oficiais quando disponíveis; demais aproximadas por bairro. A API não informa horários.",
+      "accuracy": "approximate",
+      "verified": true
     },
     {
       "id": "bh-savassi-sab-01",
@@ -2396,10 +2555,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "07:00–13:00",
+      "hours": null,
       "address": "Rua Tomé de Souza, 800",
-      "source": "Prefeitura de Belo Horizonte (Feiras Livres Municipais)",
-      "accuracy": "official_coords"
+      "source": "Prefeitura de Belo Horizonte (Feiras Livres Municipais) (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "bh-feirarte-dom-02",
@@ -2411,10 +2571,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "08:00–14:00",
+      "hours": null,
       "address": "Av. Afonso Pena, 1500",
-      "source": "Prefeitura de Belo Horizonte",
-      "accuracy": "official_coords"
+      "source": "Prefeitura de Belo Horizonte (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "bh-floresta-qui-03",
@@ -2426,10 +2587,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "07:00–12:30",
+      "hours": null,
       "address": "Praça Marechal Deodoro",
-      "source": "Prefeitura de Belo Horizonte",
-      "accuracy": "approximate"
+      "source": "Prefeitura de Belo Horizonte (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "bh-prado-ter-04",
@@ -2441,10 +2603,11 @@
       "daysOfWeek": [
         "terca"
       ],
-      "hours": "07:00–13:00",
+      "hours": null,
       "address": "Rua Platina, 450",
-      "source": "Prefeitura de Belo Horizonte",
-      "accuracy": "official_coords"
+      "source": "Prefeitura de Belo Horizonte (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "df-asa-norte-304-sab-01",
@@ -2456,10 +2619,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "06:30–12:30",
+      "hours": null,
       "address": "EQN 304/305 (Entre-bloco)",
-      "source": "EMATER-DF / Governo do Distrito Federal",
-      "accuracy": "official_coords"
+      "source": "EMATER-DF / Governo do Distrito Federal (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "df-asa-sul-315-qua-02",
@@ -2471,10 +2635,11 @@
       "daysOfWeek": [
         "quarta"
       ],
-      "hours": "06:30–12:00",
+      "hours": null,
       "address": "EQS 315/316",
-      "source": "EMATER-DF / Governo do Distrito Federal",
-      "accuracy": "official_coords"
+      "source": "EMATER-DF / Governo do Distrito Federal (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "df-guara-sex-03",
@@ -2489,10 +2654,11 @@
         "sabado",
         "domingo"
       ],
-      "hours": "08:00–18:00",
+      "hours": null,
       "address": "SRIA QI 9 - Guará I",
-      "source": "Administração Regional do Guará",
-      "accuracy": "official_coords"
+      "source": "Administração Regional do Guará (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "df-cruzeiro-sab-04",
@@ -2508,10 +2674,11 @@
         "sabado",
         "domingo"
       ],
-      "hours": "08:00–18:00",
+      "hours": null,
       "address": "SREIA Quadra 811 - Cruzeiro Velho",
-      "source": "Administração Regional do Cruzeiro",
-      "accuracy": "official_coords"
+      "source": "Administração Regional do Cruzeiro (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "cwb-ucrania-qui-01",
@@ -2523,10 +2690,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "17:00–21:00",
+      "hours": null,
       "address": "Praça da Ucrânia (Padre Anchieta)",
-      "source": "Prefeitura Municipal de Curitiba (SMSAN)",
-      "accuracy": "official_coords"
+      "source": "Prefeitura Municipal de Curitiba (SMSAN) (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "cwb-largo-dom-02",
@@ -2538,10 +2706,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "09:00–14:00",
+      "hours": null,
       "address": "Rua São Francisco / Setor Histórico",
-      "source": "Prefeitura Municipal de Curitiba",
-      "accuracy": "official_coords"
+      "source": "Prefeitura Municipal de Curitiba (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "cwb-batel-sab-03",
@@ -2553,10 +2722,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "07:00–12:00",
+      "hours": null,
       "address": "Rua Carneiro Lobo, 300",
-      "source": "Prefeitura Municipal de Curitiba (SMSAN)",
-      "accuracy": "official_coords"
+      "source": "Prefeitura Municipal de Curitiba (SMSAN) (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "cwb-juveve-ter-04",
@@ -2568,10 +2738,11 @@
       "daysOfWeek": [
         "terca"
       ],
-      "hours": "07:00–11:30",
+      "hours": null,
       "address": "Rua Alberto Folloni",
-      "source": "Prefeitura Municipal de Curitiba (SMSAN)",
-      "accuracy": "official_coords"
+      "source": "Prefeitura Municipal de Curitiba (SMSAN) (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "poa-redencao-sab-01",
@@ -2583,10 +2754,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "07:00–13:00",
+      "hours": null,
       "address": "Av. José Bonifácio (Parque Farroupilha)",
-      "source": "Prefeitura de Porto Alegre (SMAMUS)",
-      "accuracy": "official_coords"
+      "source": "Prefeitura de Porto Alegre (SMAMUS) (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "poa-menino-deus-qua-02",
@@ -2599,10 +2771,11 @@
         "quarta",
         "sabado"
       ],
-      "hours": "07:00–12:30",
+      "hours": null,
       "address": "Pátio da Secretaria da Agricultura",
-      "source": "Prefeitura de Porto Alegre",
-      "accuracy": "official_coords"
+      "source": "Prefeitura de Porto Alegre (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "poa-moinhos-ter-03",
@@ -2614,10 +2787,11 @@
       "daysOfWeek": [
         "terca"
       ],
-      "hours": "07:30–12:30",
+      "hours": null,
       "address": "Rua Santo Inácio",
-      "source": "Prefeitura de Porto Alegre",
-      "accuracy": "official_coords"
+      "source": "Prefeitura de Porto Alegre (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "ssa-sao-joaquim-diario-01",
@@ -2635,10 +2809,11 @@
         "sabado",
         "domingo"
       ],
-      "hours": "06:00–17:00",
+      "hours": null,
       "address": "Av. Engenheiro Oscar Pontes",
-      "source": "Prefeitura Municipal de Salvador (SEMOP)",
-      "accuracy": "official_coords"
+      "source": "Prefeitura Municipal de Salvador (SEMOP) (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "ssa-rio-vermelho-sab-02",
@@ -2650,10 +2825,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "07:00–13:00",
+      "hours": null,
       "address": "Praça Marques de Valença",
-      "source": "Prefeitura Municipal de Salvador",
-      "accuracy": "official_coords"
+      "source": "Prefeitura Municipal de Salvador (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "ssa-itapua-dom-03",
@@ -2665,10 +2841,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "06:00–13:00",
+      "hours": null,
       "address": "Rua Aristides Milton",
-      "source": "Prefeitura Municipal de Salvador",
-      "accuracy": "approximate"
+      "source": "Prefeitura Municipal de Salvador (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "rec-casa-amarela-diario-01",
@@ -2686,10 +2863,11 @@
         "sabado",
         "domingo"
       ],
-      "hours": "06:00–17:00",
+      "hours": null,
       "address": "Largo de Casa Amarela",
-      "source": "Prefeitura do Recife (CSURB)",
-      "accuracy": "official_coords"
+      "source": "Prefeitura do Recife (CSURB) (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "rec-sitio-trindade-sab-02",
@@ -2701,10 +2879,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "06:00–11:00",
+      "hours": null,
       "address": "Estrada do Arraial, 3259",
-      "source": "Prefeitura do Recife",
-      "accuracy": "official_coords"
+      "source": "Prefeitura do Recife (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "rec-boa-viagem-qui-03",
@@ -2716,10 +2895,11 @@
       "daysOfWeek": [
         "quinta"
       ],
-      "hours": "06:00–12:00",
+      "hours": null,
       "address": "Praça de Boa Viagem",
-      "source": "Prefeitura do Recife",
-      "accuracy": "official_coords"
+      "source": "Prefeitura do Recife (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "for-beira-mar-diario-01",
@@ -2737,10 +2917,11 @@
         "sabado",
         "domingo"
       ],
-      "hours": "16:00–22:00",
+      "hours": null,
       "address": "Av. Beira Mar, Meireles",
-      "source": "Prefeitura Municipal de Fortaleza",
-      "accuracy": "official_coords"
+      "source": "Prefeitura Municipal de Fortaleza (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "for-adahil-barreto-sab-02",
@@ -2752,10 +2933,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "06:00–11:00",
+      "hours": null,
       "address": "Rua Major Virgílio Borba, 120",
-      "source": "Prefeitura Municipal de Fortaleza",
-      "accuracy": "official_coords"
+      "source": "Prefeitura Municipal de Fortaleza (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "nit-icarai-dom-01",
@@ -2767,10 +2949,11 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "07:00–13:30",
+      "hours": null,
       "address": "Rua Belisário Augusto",
-      "source": "Prefeitura Municipal de Niterói",
-      "accuracy": "official_coords"
+      "source": "Prefeitura Municipal de Niterói (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "nit-campo-sao-bento-sab-02",
@@ -2782,10 +2965,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "07:00–13:00",
+      "hours": null,
       "address": "Alameda Edmundo de Macedo Soares",
-      "source": "Prefeitura Municipal de Niterói",
-      "accuracy": "official_coords"
+      "source": "Prefeitura Municipal de Niterói (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "cps-centro-convivencia-sab-01",
@@ -2798,10 +2982,11 @@
         "sabado",
         "domingo"
       ],
-      "hours": "08:00–14:00",
+      "hours": null,
       "address": "Praça Imprensa Fluminense (Centro de Convivência)",
-      "source": "Prefeitura Municipal de Campinas (SETEC)",
-      "accuracy": "official_coords"
+      "source": "Prefeitura Municipal de Campinas (SETEC) (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "cps-barao-geraldo-ter-02",
@@ -2813,10 +2998,11 @@
       "daysOfWeek": [
         "terca"
       ],
-      "hours": "07:00–12:30",
+      "hours": null,
       "address": "Praça do Coco, Barão Geraldo",
-      "source": "Prefeitura Municipal de Campinas",
-      "accuracy": "official_coords"
+      "source": "Prefeitura Municipal de Campinas (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "fln-praca-xv-sab-01",
@@ -2828,10 +3014,11 @@
       "daysOfWeek": [
         "sabado"
       ],
-      "hours": "08:00–13:00",
+      "hours": null,
       "address": "Praça XV de Novembro",
-      "source": "Prefeitura Municipal de Florianópolis",
-      "accuracy": "official_coords"
+      "source": "Prefeitura Municipal de Florianópolis (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     },
     {
       "id": "fln-lagoa-dom-02",
@@ -2843,19 +3030,30 @@
       "daysOfWeek": [
         "domingo"
       ],
-      "hours": "09:00–16:00",
+      "hours": null,
       "address": "Praça da Lagoa Bento Silveira",
-      "source": "Prefeitura Municipal de Florianópolis",
-      "accuracy": "official_coords"
+      "source": "Prefeitura Municipal de Florianópolis (não verificado — gerado sem conferência na fonte)",
+      "accuracy": "approximate",
+      "verified": false
     }
   ],
   "meta": {
-    "generatedAt": "2026-09-12",
+    "generatedAt": "2026-10-04",
     "cities": [
-      "Rio de Janeiro",
       "São Paulo",
-      "Cuiabá"
+      "Rio de Janeiro",
+      "Cuiabá",
+      "Belo Horizonte",
+      "Brasília",
+      "Curitiba",
+      "Porto Alegre",
+      "Salvador",
+      "Recife",
+      "Fortaleza",
+      "Niterói",
+      "Campinas",
+      "Florianópolis"
     ],
-    "notes": "Não inventamos horários oficiais precisos além do que consta nas fontes municipais. Coordenadas aproximadas estão marcadas com accuracy=approximate."
+    "notes": "Horários só aparecem quando constam na fonte oficial (hoje: lista da SEOP/Rio). Feiras com verified=false não foram conferidas em fonte oficial. Coordenadas aproximadas estão marcadas com accuracy=approximate."
   }
 }
