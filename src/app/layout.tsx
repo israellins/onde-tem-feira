@@ -1,50 +1,54 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import { Geist } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
 export const metadata: Metadata = {
-  title: "Onde tem feira — Mapa, Lista de Compras e Mural da Feira",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Onde tem feira — mapa das feiras livres",
+    template: "%s · Onde tem feira",
+  },
   description:
-    "Mapa das feiras livres no Brasil — Rio de Janeiro, São Paulo, Cuiabá, Belo Horizonte, Brasília, Salvador, Curitiba, Porto Alegre, Recife e mais. Filtre por dia, cidade e bairro, crie sua lista de compras e confira postagens com preços atualizados.",
+    "Encontre feiras livres no Rio de Janeiro, São Paulo, Cuiabá e outras cidades. Filtre por dia, bairro e cidade, monte sua lista de compras e veja preços informados pela comunidade.",
+  applicationName: "Onde tem feira",
   manifest: "/manifest.json",
+  icons: {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/icons/apple-touch-icon.png", sizes: "180x180" }],
+  },
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "OndeTemFeira",
+    title: "Onde tem feira",
   },
   openGraph: {
-    title: "Onde tem feira — Mapa e Comunidade de Feiras Livres",
+    title: "Onde tem feira — mapa das feiras livres",
     description:
-      "Encontre feiras livres em várias cidades do Brasil, crie sua lista de compras e compartilhe fotos e preços com a comunidade.",
+      "Encontre feiras livres perto de você, monte sua lista de compras e compartilhe preços.",
     locale: "pt_BR",
     type: "website",
+    siteName: "Onde tem feira",
   },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export const viewport: Viewport = {
+  themeColor: "#f59e0b",
+  width: "device-width",
+  initialScale: 1,
+};
+
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="pt-BR">
-      <head>
-        <meta name="theme-color" content="#f59e0b" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-      </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-stone-50 text-stone-900`}
-      >
+      <body className={`${geistSans.variable} bg-stone-50 text-stone-900 antialiased`}>
         {children}
       </body>
     </html>

@@ -15,8 +15,7 @@
 body {
   background:
     radial-gradient(ellipse at top left, #ffedd5 0%, transparent 45%),
-    radial-gradient(ellipse at bottom right, #fecaca 0%, transparent 40%),
-    var(--background);
+    radial-gradient(ellipse at bottom right, #fecaca 0%, transparent 40%), var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), system-ui, sans-serif;
   min-height: 100vh;

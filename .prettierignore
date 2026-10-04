@@ -1,0 +1,11 @@
+node_modules
+.next
+package-lock.json
+src/data/feiras.json
+data/sources
+supabase/migrations/*_carga_feiras.sql
+supabase/.temp
+playwright-report
+test-results
+coverage
+*.md
