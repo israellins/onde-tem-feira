@@ -1,86 +1,77 @@
-# Onde tem feira
+# Onde tem feira 🧺
 
-Plataforma para mapear **feiras livres** no Brasil. MVP com mapa interativo, filtros e lista sincronizada para **Rio de Janeiro**, **São Paulo** e **Cuiabá**.
+Mapa colaborativo de **feiras livres no Brasil**. Encontre feiras perto de você, filtre por
+cidade, dia e bairro, monte sua lista de compras e compartilhe preços com a comunidade.
 
-## Como rodar
+[![CI](https://github.com/israellins/onde-tem-feira/actions/workflows/ci.yml/badge.svg)](https://github.com/israellins/onde-tem-feira/actions/workflows/ci.yml)
+
+## Funcionalidades
+
+| Para todos (sem conta)                                | Com conta (Google ou link por e-mail)            |
+| ----------------------------------------------------- | ------------------------------------------------ |
+| Mapa com 188 feiras em 13 cidades                     | Mural de relatos com nota, preços e foto         |
+| Filtros por cidade, dia, "Hoje" e busca sem acentos   | Confirmar que a feira está funcionando           |
+| Selos de qualidade do dado (verificada, aproximada…)  | Sugerir correções e feiras novas (com moderação) |
+| Lista de compras salva no aparelho                    | Lista de compras sincronizada entre aparelhos    |
+| "Como chegar" pelo Google Maps                        | Excluir a conta e todos os dados a qualquer hora |
+
+Administradores têm um **painel de moderação** em `/admin` para aprovar sugestões e tratar
+denúncias.
+
+## Como rodar no seu computador
+
+Pré-requisitos: [Node.js 20.9+](https://nodejs.org) e, para login/mural,
+[Docker](https://www.docker.com/) (usado pelo Supabase local).
 
 ```bash
-npm i
+npm install
+npm run dev            # abre em http://localhost:3000
+```
+
+Sem configurar nada, o app roda em **modo offline**: mapa com os dados embutidos e lista de
+compras no aparelho. Para ligar login, mural e sugestões localmente:
+
+```bash
+npm run db:start       # sobe o Supabase local (primeira vez demora alguns minutos)
+cp .env.example .env.local
+# preencha NEXT_PUBLIC_SUPABASE_URL e NEXT_PUBLIC_SUPABASE_ANON_KEY
+# com os valores mostrados pelo comando acima (API URL e anon key)
 npm run dev
 ```
 
-Abra [http://localhost:3000](http://localhost:3000).
+Os e-mails de login do ambiente local chegam em http://127.0.0.1:54324 (Mailpit).
 
-Build de produção:
+## Comandos
 
-```bash
-npm run build
-npm start
-```
+| Comando                  | O que faz                                                       |
+| ------------------------ | --------------------------------------------------------------- |
+| `npm run dev`            | Servidor de desenvolvimento                                     |
+| `npm run check`          | Lint + tipos + testes + build — rode antes de cada commit       |
+| `npm test`               | Testes unitários e de componentes (Vitest)                      |
+| `npm run test:db`        | Testes de segurança do banco (precisa do Supabase local)        |
+| `npm run test:e2e`       | Testes no navegador, desktop e celular (Playwright)             |
+| `npm run db:reset`       | Recria o banco local a partir das migrations                    |
+| `npm run db:types`       | Regenera os tipos TypeScript do banco                           |
+| `npm run db:gerar-carga` | Gera a migration de carga a partir de `src/data/feiras.json`    |
+| `npm run icons`          | Gera os ícones PNG a partir de `public/icon.svg`                |
+
+## Documentação
+
+- [Colocar no ar (Supabase + Vercel + login com Google)](docs/CONFIGURAR-PRODUCAO.md)
+- [Arquitetura e decisões](docs/ARQUITETURA.md)
+- [Dados das feiras: fontes e como atualizar](docs/DADOS.md)
+- [Publicar na Google Play](docs/PLAY-STORE.md)
+- [Como contribuir](CONTRIBUTING.md) · [Segurança](SECURITY.md) · [Mudanças](CHANGELOG.md)
 
 ## Stack
 
-- Next.js (App Router) + TypeScript + Tailwind CSS
-- Mapa: `react-leaflet` + tiles OpenStreetMap
-- Dados: JSON estático em `src/data/feiras.json` (cópia em `data/feiras.json`)
+Next.js 16 (App Router) · React 19 · TypeScript · Tailwind CSS 4 · Leaflet + OpenStreetMap ·
+Supabase (Postgres, Auth, Storage) · Zod · Vitest · Playwright · GitHub Actions.
 
-## Funcionalidades (v1)
+## Sobre os dados
 
-- Mapa com marcadores e popup (nome, bairro, cidade, dias, horário, endereço)
-- Filtros por cidade, dia da semana e busca textual
-- Atalho **Hoje**
-- Lista lateral sincronizada com o mapa (clique na lista centraliza o marcador)
-- Interface em **pt-BR**, visual quente de feira, layout mobile-friendly
+Feiras de São Paulo, Rio de Janeiro e Cuiabá vêm de fontes municipais. As demais cidades estão
+marcadas como **não verificadas**. Horários só aparecem quando a fonte oficial informa. Detalhes
+em [docs/DADOS.md](docs/DADOS.md) e na página `/sobre` do app.
 
-## Como adicionar feiras
-
-1. Edite `src/data/feiras.json` (e mantenha `data/feiras.json` alinhado se quiser).
-2. Cada feira deve ter o formato:
-
-```json
-{
-  "id": "rj-exemplo-sab-99",
-  "name": "Feira da Rua Exemplo",
-  "city": "Rio de Janeiro",
-  "neighborhood": "Bairro",
-  "lat": -22.9,
-  "lng": -43.2,
-  "daysOfWeek": ["sabado"],
-  "hours": "07:00–13:00",
-  "address": "Rua Exemplo",
-  "source": "Fonte municipal ou URL",
-  "accuracy": "approximate"
-}
-```
-
-3. Valores de `daysOfWeek`: `domingo`, `segunda`, `terca`, `quarta`, `quinta`, `sexta`, `sabado`.
-4. Use `accuracy`: `official_coords` quando a coordenada vier de dado oficial; `approximate` para geocodificação aproximada.
-5. **Não invente** horários oficiais precisos. Prefira omitir `hours` ou marcar a fonte.
-
-Depois de editar, rode `npm run build` para validar.
-
-## Fontes de dados (seed)
-
-| Cidade | Fonte | Observação |
-|--------|--------|------------|
-| São Paulo | [GeoSampa](https://geosampa.prefeitura.sp.gov.br/) WFS `equipamento_feira_livre` | Coordenadas oficiais (convertidas de SIRGAS 2000 UTM 23S). Horário padrão tradicional 08:00–14:00 quando o campo de horário vem vazio. Subconjunto curado do cadastro (~975 feiras no WFS). |
-| Rio de Janeiro | [SEOP / Coordenadoria de Feiras](https://ordempublica.prefeitura.rio/feiras) — Relação das Feiras Livres | Dias e horários da lista municipal. Coordenadas **aproximadas** por geocodificação de rua/bairro. |
-| Cuiabá | [Portal Feiras Cuiabá](https://feiras.cuiaba.mt.gov.br/) API `/api/feiras` | Dias oficiais. Coordenadas oficiais quando presentes; demais aproximadas por bairro. Horários inferidos do padrão municipal (manhã aos domingos / noturno em dias úteis) quando a API não informa. |
-
-> Os dados podem ficar desatualizados. Sempre confira com a prefeitura ou no local.
-
-## Estrutura do projeto
-
-```
-src/
-  app/                 # App Router (layout, página, CSS)
-  components/          # UI: filtros, lista, mapa
-  data/feiras.json     # Seed das feiras
-  lib/                 # Filtros, dias da semana, centros de cidade
-  types/               # Tipos TypeScript
-data/                  # Cópia do seed + raw da API de Cuiabá
-```
-
-## Licença
-
-Código do app: livre para uso do repositório. Os dados municipais permanecem sujeitos às licenças/termos das respectivas prefeituras.
+Mapas © colaboradores do [OpenStreetMap](https://www.openstreetmap.org/copyright).
