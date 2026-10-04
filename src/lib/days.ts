@@ -1,33 +1,31 @@
-import type { DayOfWeek } from "@/types/feira";
+import { DAY_VALUES, type DayOfWeek } from "@/types/feira";
 
-export const DAYS_OF_WEEK: { value: DayOfWeek; label: string }[] = [
-  { value: "domingo", label: "Domingo" },
-  { value: "segunda", label: "Segunda" },
-  { value: "terca", label: "Terça" },
-  { value: "quarta", label: "Quarta" },
-  { value: "quinta", label: "Quinta" },
-  { value: "sexta", label: "Sexta" },
-  { value: "sabado", label: "Sábado" },
-];
+export const DAY_LABEL: Record<DayOfWeek, string> = {
+  domingo: "Domingo",
+  segunda: "Segunda",
+  terca: "Terça",
+  quarta: "Quarta",
+  quinta: "Quinta",
+  sexta: "Sexta",
+  sabado: "Sábado",
+};
 
-export const DAY_LABEL: Record<string, string> = Object.fromEntries(
-  DAYS_OF_WEEK.map((d) => [d.value, d.label]),
-);
+export const DAYS_OF_WEEK: { value: DayOfWeek; label: string }[] = DAY_VALUES.map((value) => ({
+  value,
+  label: DAY_LABEL[value],
+}));
 
-const JS_DAY_TO_OURS: DayOfWeek[] = [
-  "domingo",
-  "segunda",
-  "terca",
-  "quarta",
-  "quinta",
-  "sexta",
-  "sabado",
-];
-
-export function todayDayOfWeek(): DayOfWeek {
-  return JS_DAY_TO_OURS[new Date().getDay()];
+/** Dia da semana da data informada, no fuso do aparelho do usuário. */
+export function dayOfWeekFromDate(date: Date): DayOfWeek {
+  // Date#getDay(): 0 = domingo … 6 = sábado, mesma ordem de DAY_VALUES.
+  return DAY_VALUES[date.getDay()];
 }
 
-export function formatDays(days: string[]): string {
-  return days.map((d) => DAY_LABEL[d] ?? d).join(", ");
+/** Ordena e formata os dias: ["sabado","quarta"] → "Quarta, Sábado". */
+export function formatDays(days: readonly DayOfWeek[]): string {
+  if (days.length === 7) return "Todos os dias";
+  return [...days]
+    .sort((a, b) => DAY_VALUES.indexOf(a) - DAY_VALUES.indexOf(b))
+    .map((d) => DAY_LABEL[d])
+    .join(", ");
 }

@@ -1,53 +1,36 @@
-import fs from 'fs';
-import path from 'path';
+#!/usr/bin/env node
+/**
+ * Gera os ícones PNG do app (PWA / Google Play / iOS) a partir de public/icon.svg.
+ *
+ * Uso:  npm run icons
+ *
+ * - icon-192.png / icon-512.png: ícones padrão ("any")
+ * - maskable-512.png: com margem de segurança para Android recortar em círculo
+ * - apple-touch-icon.png: 180x180 para iPhone
+ */
+import sharp from "sharp";
+import { readFileSync, mkdirSync } from "node:fs";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 
-// Helper to construct a PNG with an amber background and basket/fruit motif
-// If no external canvas is installed, we can create a clean SVG icon and raw PNG buffer
-const svgContent = (size) => `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 512 512">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f59e0b" />
-      <stop offset="50%" stop-color="#f97316" />
-      <stop offset="100%" stop-color="#e11d48" />
-    </linearGradient>
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.3" />
-    </filter>
-  </defs>
+const root = join(dirname(fileURLToPath(import.meta.url)), "..");
+const svg = readFileSync(join(root, "public/icon.svg"));
+const out = join(root, "public/icons");
+mkdirSync(out, { recursive: true });
 
-  <!-- Background Card -->
-  <rect width="512" height="512" rx="110" fill="url(#bgGrad)" />
-
-  <!-- Inner Gloss Circle -->
-  <circle cx="256" cy="256" r="190" fill="white" fill-opacity="0.12" />
-
-  <!-- Market Basket Icon -->
-  <g filter="url(#shadow)" transform="translate(106, 116)">
-    <!-- Basket Body -->
-    <path d="M 45 130 L 255 130 L 230 250 C 225 270, 205 280, 185 280 L 115 280 C 95 280, 75 270, 70 250 Z" fill="#ffffff" />
-    <!-- Basket Rim -->
-    <rect x="30" y="110" width="240" height="26" rx="13" fill="#ffffff" />
-    <!-- Handle -->
-    <path d="M 80 110 C 80 40, 220 40, 220 110" fill="none" stroke="#ffffff" stroke-width="24" stroke-linecap="round" />
-    
-    <!-- Fruits / Accents in Basket -->
-    <!-- Orange / Tangerine -->
-    <circle cx="110" cy="100" r="32" fill="#fbbf24" />
-    <!-- Apple / Red Fruit -->
-    <circle cx="160" cy="90" r="34" fill="#ef4444" />
-    <!-- Leaf -->
-    <path d="M 160 56 C 175 40, 190 50, 185 62 C 170 70, 160 56, 160 56 Z" fill="#22c55e" />
-    <!-- Green Fruit / Lime -->
-    <circle cx="200" cy="104" r="28" fill="#4ade80" />
-  </g>
-</svg>`;
-
-if (!fs.existsSync('public')) {
-  fs.mkdirSync('public', { recursive: true });
+async function plain(size, file) {
+  await sharp(svg, { density: 384 }).resize(size, size).png().toFile(join(out, file));
 }
 
-fs.writeFileSync(path.join('public', 'icon.svg'), svgContent(512));
-fs.writeFileSync(path.join('public', 'icon-192.svg'), svgContent(192));
-fs.writeFileSync(path.join('public', 'icon-512.svg'), svgContent(512));
+async function maskable(size, file) {
+  // Fundo sem cantos arredondados (o Android aplica a própria máscara);
+  // o cesto já fica dentro da área segura de 80% do centro.
+  const square = Buffer.from(svg.toString().replace(/rx="\d+"/, 'rx="0"'));
+  await sharp(square, { density: 384 }).resize(size, size).png().toFile(join(out, file));
+}
 
-console.log('SVG PWA icons generated in public/');
+await plain(192, "icon-192.png");
+await plain(512, "icon-512.png");
+await maskable(512, "maskable-512.png");
+await maskable(180, "apple-touch-icon.png");
+console.log("Ícones gerados em public/icons/");

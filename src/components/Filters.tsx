@@ -1,31 +1,34 @@
 "use client";
 
-import { DAYS_OF_WEEK, todayDayOfWeek, DAY_LABEL } from "@/lib/days";
-import type { FeiraFilters } from "@/types/feira";
+import { DAYS_OF_WEEK, DAY_LABEL } from "@/lib/days";
+import type { DayOfWeek, FeiraFilters } from "@/types/feira";
 
 interface Props {
   cities: string[];
   filters: FeiraFilters;
   onChange: (next: FeiraFilters) => void;
   resultCount: number;
+  /** null enquanto o dia do aparelho ainda não é conhecido (renderização no servidor). */
+  today: DayOfWeek | null;
 }
 
-export function Filters({ cities, filters, onChange, resultCount }: Props) {
-  const today = todayDayOfWeek();
+const selectClass =
+  "rounded-lg border border-orange-200 bg-white px-3 py-2 text-sm text-stone-800 shadow-sm focus:border-amber-500 focus:outline-none focus:ring-1 focus:ring-amber-500 disabled:opacity-60";
+
+export function Filters({ cities, filters, onChange, resultCount, today }: Props) {
+  const hasFilters = Boolean(filters.city || filters.day || filters.query || filters.todayOnly);
 
   return (
     <div className="space-y-3">
       <div className="flex flex-wrap items-center gap-2">
-        <label className="sr-only" htmlFor="city">
+        <label className="sr-only" htmlFor="filtro-cidade">
           Cidade
         </label>
         <select
-          id="city"
+          id="filtro-cidade"
           value={filters.city}
-          onChange={(e) =>
-            onChange({ ...filters, city: e.target.value, todayOnly: false })
-          }
-          className="rounded-lg border border-orange-200 bg-white px-3 py-2 text-sm text-stone-800 shadow-sm focus:border-amber-500 focus:outline-none focus:ring-1 focus:ring-amber-500"
+          onChange={(e) => onChange({ ...filters, city: e.target.value })}
+          className={selectClass}
         >
           <option value="">Todas as cidades</option>
           {cities.map((c) => (
@@ -35,17 +38,21 @@ export function Filters({ cities, filters, onChange, resultCount }: Props) {
           ))}
         </select>
 
-        <label className="sr-only" htmlFor="day">
+        <label className="sr-only" htmlFor="filtro-dia">
           Dia da semana
         </label>
         <select
-          id="day"
-          value={filters.todayOnly ? today : filters.day}
+          id="filtro-dia"
+          value={filters.todayOnly && today ? today : filters.day}
           disabled={filters.todayOnly}
           onChange={(e) =>
-            onChange({ ...filters, day: e.target.value, todayOnly: false })
+            onChange({
+              ...filters,
+              day: e.target.value as DayOfWeek | "",
+              todayOnly: false,
+            })
           }
-          className="rounded-lg border border-orange-200 bg-white px-3 py-2 text-sm text-stone-800 shadow-sm focus:border-amber-500 focus:outline-none focus:ring-1 focus:ring-amber-500 disabled:opacity-60"
+          className={selectClass}
         >
           <option value="">Todos os dias</option>
           {DAYS_OF_WEEK.map((d) => (
@@ -57,30 +64,25 @@ export function Filters({ cities, filters, onChange, resultCount }: Props) {
 
         <button
           type="button"
-          onClick={() =>
-            onChange({
-              ...filters,
-              todayOnly: !filters.todayOnly,
-              day: !filters.todayOnly ? today : "",
-            })
-          }
-          className={`rounded-full px-3 py-2 text-sm font-semibold transition ${
+          disabled={!today}
+          onClick={() => onChange({ ...filters, todayOnly: !filters.todayOnly, day: "" })}
+          aria-pressed={filters.todayOnly}
+          className={`rounded-full px-3 py-2 text-sm font-semibold transition disabled:opacity-60 ${
             filters.todayOnly
               ? "bg-amber-500 text-white shadow"
               : "bg-amber-100 text-amber-900 hover:bg-amber-200"
           }`}
-          aria-pressed={filters.todayOnly}
         >
-          Hoje ({DAY_LABEL[today]})
+          Hoje{today ? ` (${DAY_LABEL[today]})` : ""}
         </button>
       </div>
 
-      <div className="relative">
-        <label className="sr-only" htmlFor="search">
+      <div>
+        <label className="sr-only" htmlFor="filtro-busca">
           Buscar feira
         </label>
         <input
-          id="search"
+          id="filtro-busca"
           type="search"
           placeholder="Buscar por nome, bairro ou endereço…"
           value={filters.query}
@@ -89,10 +91,20 @@ export function Filters({ cities, filters, onChange, resultCount }: Props) {
         />
       </div>
 
-      <p className="text-xs text-stone-500">
-        {resultCount} feira{resultCount === 1 ? "" : "s"} encontrada
-        {resultCount === 1 ? "" : "s"}
-      </p>
+      <div className="flex items-center justify-between text-xs text-stone-500">
+        <p aria-live="polite">
+          {resultCount === 1 ? "1 feira encontrada" : `${resultCount} feiras encontradas`}
+        </p>
+        {hasFilters && (
+          <button
+            type="button"
+            onClick={() => onChange({ city: "", day: "", query: "", todayOnly: false })}
+            className="font-semibold text-amber-700 hover:underline"
+          >
+            Limpar filtros
+          </button>
+        )}
+      </div>
     </div>
   );
 }

@@ -1,8 +1,11 @@
 import { AppShell } from "@/components/AppShell";
-import data from "@/data/feiras.json";
-import type { Feira } from "@/types/feira";
+import { getFeiras } from "@/lib/data/getFeiras";
 
-export default function HomePage() {
-  const feiras = data.feiras as Feira[];
+// Recarrega o catálogo do Supabase a cada 5 minutos (ISR), para que
+// sugestões aprovadas apareçam sem precisar publicar o site de novo.
+export const revalidate = 300;
+
+export default async function HomePage() {
+  const { feiras } = await getFeiras();
   return <AppShell feiras={feiras} />;
 }
