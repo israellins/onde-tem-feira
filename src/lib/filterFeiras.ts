@@ -3,7 +3,11 @@ import { DAY_LABEL } from "@/lib/days";
 
 /** Minúsculas e sem acentos, para busca tolerante ("cuiaba" acha "Cuiabá"). */
 export function normalizeText(value: string): string {
-  return value.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase().trim();
+  return value
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLowerCase()
+    .trim();
 }
 
 /**
