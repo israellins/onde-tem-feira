@@ -45,6 +45,9 @@ export interface ShoppingItem {
   category: ShoppingCategory;
   completed: boolean;
   createdAt: string;
+  /** Só na lista online: quem adicionou o item. */
+  addedBy?: string | null;
+  addedByName?: string | null;
 }
 
 export type NewShoppingItem = Pick<

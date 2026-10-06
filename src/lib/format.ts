@@ -43,7 +43,12 @@ export function friendlyError(error: unknown): string {
     typeof error === "object" && error !== null && "message" in error
       ? String((error as { message: unknown }).message)
       : "";
-  if (/limite/i.test(message)) return message;
+  const code =
+    typeof error === "object" && error !== null && "code" in error
+      ? String((error as { code: unknown }).code)
+      : "";
+  // P0001 = mensagem escrita por nós no banco, já pensada para o usuário.
+  if (code === "P0001" || /limite/i.test(message)) return message;
   if (/failed to fetch|network/i.test(message))
     return "Sem conexão. Verifique sua internet e tente novamente.";
   if (/jwt|not authenticated|permission|row-level security/i.test(message))

@@ -7,13 +7,18 @@ import {
   clearLocalItems,
   createLocalShoppingStore,
   createRemoteShoppingStore,
+  fetchShareInfo,
   pendingTotal,
   readLocalItems,
+  removeShare,
+  shareList,
+  type ShareInfo,
   type ShoppingStore,
 } from "@/lib/repositories/shopping";
 import { newShoppingItemSchema, type ShoppingCategory, type ShoppingItem } from "@/types/community";
 import { Modal } from "@/components/ui/Modal";
 import { Alert } from "@/components/ui/Alert";
+import { SharePanel } from "@/components/shopping/SharePanel";
 
 const CATEGORIES: { id: ShoppingCategory; label: string; color: string }[] = [
   { id: "frutas", label: "🍎 Frutas", color: "bg-red-50 text-red-700 border-red-200" },
@@ -45,11 +50,20 @@ function ShoppingList({ onClose }: { onClose: () => void }) {
   const { supabase, user, enabled, openAuthModal } = useAuth();
   const ids = useId();
 
+  // Lista aberta: null = a minha; senão, o id de quem compartilhou comigo.
+  const [activeOwner, setActiveOwner] = useState<string | null>(null);
+  const [shareInfo, setShareInfo] = useState<ShareInfo>({ members: [], sharedWithMe: [] });
+  const [shareKey, setShareKey] = useState(0);
+
+  const listOwnerId = user ? (activeOwner ?? user.id) : null;
+  const isOwnList = !activeOwner;
+  const sharedList = shareInfo.sharedWithMe.find((l) => l.ownerId === activeOwner) ?? null;
+
   const store: ShoppingStore | null = useMemo(() => {
-    if (supabase && user) return createRemoteShoppingStore(supabase, user.id);
+    if (supabase && listOwnerId) return createRemoteShoppingStore(supabase, listOwnerId);
     if (typeof window === "undefined") return null;
     return createLocalShoppingStore(window.localStorage);
-  }, [supabase, user]);
+  }, [supabase, listOwnerId]);
 
   const [items, setItems] = useState<ShoppingItem[] | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -77,6 +91,57 @@ function ShoppingList({ onClose }: { onClose: () => void }) {
       cancelled = true;
     };
   }, [store, reloadKey]);
+
+  // Compartilhamentos (quem vê a minha lista e quais listas vejo).
+  useEffect(() => {
+    if (!supabase || !user) return;
+    let cancelled = false;
+    fetchShareInfo(supabase, user.id)
+      .then((info) => {
+        if (cancelled) return;
+        setShareInfo(info);
+        // Se perdi o acesso à lista aberta, volto para a minha.
+        setActiveOwner((cur) =>
+          cur && !info.sharedWithMe.some((l) => l.ownerId === cur) ? null : cur,
+        );
+      })
+      .catch((e) => !cancelled && setError(friendlyError(e)));
+    return () => {
+      cancelled = true;
+    };
+  }, [supabase, user, shareKey]);
+
+  // Outras pessoas podem mexer na lista: recarrega ao voltar para o app.
+  useEffect(() => {
+    if (!user) return;
+    const onFocus = () => {
+      if (document.visibilityState === "visible") {
+        setReloadKey((k) => k + 1);
+        setShareKey((k) => k + 1);
+      }
+    };
+    document.addEventListener("visibilitychange", onFocus);
+    return () => document.removeEventListener("visibilitychange", onFocus);
+  }, [user]);
+
+  const switchList = (ownerId: string | null) => {
+    if (ownerId === activeOwner) return;
+    setItems(null);
+    setError(null);
+    setActiveOwner(ownerId);
+  };
+
+  const leaveSharedList = async () => {
+    if (!supabase || !user || !sharedList) return;
+    if (!window.confirm(`Sair da lista de ${sharedList.ownerName}? Você deixa de vê-la.`)) return;
+    try {
+      await removeShare(supabase, sharedList.ownerId, user.id);
+      switchList(null);
+      setShareKey((k) => k + 1);
+    } catch (e) {
+      setError(friendlyError(e));
+    }
+  };
 
   // Ao entrar, oferece levar para a conta os itens salvos no aparelho.
   useEffect(() => {
@@ -146,11 +211,56 @@ function ShoppingList({ onClose }: { onClose: () => void }) {
   const completedCount = list.filter((i) => i.completed).length;
   const total = pendingTotal(list);
 
+  const title = sharedList ? `Lista de ${sharedList.ownerName}` : "Minha lista de feira";
+
   return (
-    <Modal open onClose={onClose} title="Minha lista de feira" icon="🛒" size="lg">
+    <Modal open onClose={onClose} title={title} icon="🛒" size="lg">
       <div className="space-y-4">
+        {shareInfo.sharedWithMe.length > 0 && (
+          <div role="tablist" aria-label="Listas" className="flex flex-wrap gap-1.5">
+            {[{ ownerId: null as string | null, label: "Minha lista" }]
+              .concat(
+                shareInfo.sharedWithMe.map((l) => ({
+                  ownerId: l.ownerId,
+                  label: `Lista de ${l.ownerName.split(" ")[0]}`,
+                })),
+              )
+              .map((tab) => (
+                <button
+                  key={tab.ownerId ?? "minha"}
+                  type="button"
+                  role="tab"
+                  aria-selected={activeOwner === tab.ownerId}
+                  onClick={() => switchList(tab.ownerId)}
+                  className={`rounded-full px-3 py-1.5 text-xs font-semibold transition ${
+                    activeOwner === tab.ownerId
+                      ? "bg-amber-500 text-white"
+                      : "bg-stone-100 text-stone-700 hover:bg-stone-200"
+                  }`}
+                >
+                  {tab.label}
+                </button>
+              ))}
+          </div>
+        )}
+
         <p className="text-xs text-stone-500">
-          {user ? "Salva na sua conta e sincronizada entre aparelhos." : "Salva neste aparelho."}{" "}
+          {sharedList ? (
+            <>
+              {sharedList.ownerName} compartilhou esta lista com você.{" "}
+              <button
+                type="button"
+                onClick={leaveSharedList}
+                className="font-semibold text-stone-600 underline hover:text-red-600"
+              >
+                Sair desta lista
+              </button>
+            </>
+          ) : user ? (
+            "Salva na sua conta e sincronizada entre aparelhos."
+          ) : (
+            "Salva neste aparelho."
+          )}{" "}
           {!user && enabled && (
             <button
               type="button"
@@ -162,7 +272,7 @@ function ShoppingList({ onClose }: { onClose: () => void }) {
           )}
         </p>
 
-        {localToImport.length > 0 && (
+        {isOwnList && localToImport.length > 0 && (
           <Alert kind="info">
             Há {localToImport.length} item(ns) salvos neste aparelho.{" "}
             <button type="button" onClick={importLocal} className="font-semibold underline">
@@ -301,6 +411,11 @@ function ShoppingList({ onClose }: { onClose: () => void }) {
                               {cat.label}
                             </span>
                           )}
+                          {item.addedByName && item.addedBy !== user?.id && (
+                            <span className="truncate text-[10px] text-stone-400">
+                              por {item.addedByName.split(" ")[0]}
+                            </span>
+                          )}
                         </span>
                       </span>
                     </label>
@@ -353,6 +468,21 @@ function ShoppingList({ onClose }: { onClose: () => void }) {
             </button>
           )}
         </div>
+
+        {user && supabase && isOwnList && (
+          <SharePanel
+            members={shareInfo.members}
+            onShare={async (email) => {
+              const name = await shareList(supabase, email);
+              setShareKey((k) => k + 1);
+              return name;
+            }}
+            onRemove={async (member) => {
+              await removeShare(supabase, user.id, member.memberId);
+              setShareKey((k) => k + 1);
+            }}
+          />
+        )}
       </div>
     </Modal>
   );

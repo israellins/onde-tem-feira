@@ -10,12 +10,7 @@ export type Database = {
     };
     Functions: {
       graphql: {
-        Args: {
-          extensions?: Json;
-          operationName?: string;
-          query?: string;
-          variables?: Json;
-        };
+        Args: { extensions?: Json; operationName?: string; query?: string; variables?: Json };
         Returns: Json;
       };
     };
@@ -291,6 +286,7 @@ export type Database = {
       };
       shopping_items: {
         Row: {
+          added_by: string | null;
           category: string;
           completed: boolean;
           created_at: string;
@@ -301,6 +297,7 @@ export type Database = {
           user_id: string;
         };
         Insert: {
+          added_by?: string | null;
           category?: string;
           completed?: boolean;
           created_at?: string;
@@ -311,6 +308,7 @@ export type Database = {
           user_id?: string;
         };
         Update: {
+          added_by?: string | null;
           category?: string;
           completed?: boolean;
           created_at?: string;
@@ -320,21 +318,60 @@ export type Database = {
           quantity?: string;
           user_id?: string;
         };
-        Relationships: [];
+        Relationships: [
+          {
+            foreignKeyName: "shopping_items_added_by_fkey";
+            columns: ["added_by"];
+            isOneToOne: false;
+            referencedRelation: "profiles";
+            referencedColumns: ["id"];
+          },
+        ];
+      };
+      shopping_list_shares: {
+        Row: {
+          created_at: string;
+          member_email: string;
+          member_id: string;
+          owner_id: string;
+        };
+        Insert: {
+          created_at?: string;
+          member_email: string;
+          member_id: string;
+          owner_id: string;
+        };
+        Update: {
+          created_at?: string;
+          member_email?: string;
+          member_id?: string;
+          owner_id?: string;
+        };
+        Relationships: [
+          {
+            foreignKeyName: "shopping_list_shares_member_id_fkey";
+            columns: ["member_id"];
+            isOneToOne: false;
+            referencedRelation: "profiles";
+            referencedColumns: ["id"];
+          },
+          {
+            foreignKeyName: "shopping_list_shares_owner_id_fkey";
+            columns: ["owner_id"];
+            isOneToOne: false;
+            referencedRelation: "profiles";
+            referencedColumns: ["id"];
+          },
+        ];
       };
     };
     Views: {
       [_ in never]: never;
     };
     Functions: {
-      approve_suggestion: {
-        Args: { note?: string; suggestion_id: string };
-        Returns: string;
-      };
-      delete_my_account: {
-        Args: Record<PropertyKey, never>;
-        Returns: undefined;
-      };
+      approve_suggestion: { Args: { note?: string; suggestion_id: string }; Returns: string };
+      can_access_shopping_list: { Args: { list_owner: string }; Returns: boolean };
+      delete_my_account: { Args: Record<PropertyKey, never>; Returns: undefined };
       feira_confirmation_stats: {
         Args: Record<PropertyKey, never>;
         Returns: {
@@ -345,10 +382,8 @@ export type Database = {
         }[];
       };
       is_admin: { Args: Record<PropertyKey, never>; Returns: boolean };
-      reject_suggestion: {
-        Args: { note?: string; suggestion_id: string };
-        Returns: undefined;
-      };
+      reject_suggestion: { Args: { note?: string; suggestion_id: string }; Returns: undefined };
+      share_shopping_list: { Args: { target_email: string }; Returns: string };
       slugify: { Args: { value: string }; Returns: string };
       valid_price_reports: { Args: { reports: Json }; Returns: boolean };
     };
@@ -375,9 +410,7 @@ export type Tables<
     ? keyof (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
         DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])
     : never) = never,
-> = DefaultSchemaTableNameOrOptions extends {
-  schema: keyof DatabaseWithoutInternals;
-}
+> = DefaultSchemaTableNameOrOptions extends { schema: keyof DatabaseWithoutInternals }
   ? (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
       DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])[TableName] extends {
       Row: infer R;
@@ -400,9 +433,7 @@ export type TablesInsert<
   }
     ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
     : never) = never,
-> = DefaultSchemaTableNameOrOptions extends {
-  schema: keyof DatabaseWithoutInternals;
-}
+> = DefaultSchemaTableNameOrOptions extends { schema: keyof DatabaseWithoutInternals }
   ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"][TableName] extends {
       Insert: infer I;
     }
@@ -424,9 +455,7 @@ export type TablesUpdate<
   }
     ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
     : never) = never,
-> = DefaultSchemaTableNameOrOptions extends {
-  schema: keyof DatabaseWithoutInternals;
-}
+> = DefaultSchemaTableNameOrOptions extends { schema: keyof DatabaseWithoutInternals }
   ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"][TableName] extends {
       Update: infer U;
     }
@@ -448,9 +477,7 @@ export type Enums<
   }
     ? keyof DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"]
     : never) = never,
-> = DefaultSchemaEnumNameOrOptions extends {
-  schema: keyof DatabaseWithoutInternals;
-}
+> = DefaultSchemaEnumNameOrOptions extends { schema: keyof DatabaseWithoutInternals }
   ? DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"][EnumName]
   : DefaultSchemaEnumNameOrOptions extends keyof DefaultSchema["Enums"]
     ? DefaultSchema["Enums"][DefaultSchemaEnumNameOrOptions]
@@ -464,9 +491,7 @@ export type CompositeTypes<
   }
     ? keyof DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"]
     : never) = never,
-> = PublicCompositeTypeNameOrOptions extends {
-  schema: keyof DatabaseWithoutInternals;
-}
+> = PublicCompositeTypeNameOrOptions extends { schema: keyof DatabaseWithoutInternals }
   ? DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"][CompositeTypeName]
   : PublicCompositeTypeNameOrOptions extends keyof DefaultSchema["CompositeTypes"]
     ? DefaultSchema["CompositeTypes"][PublicCompositeTypeNameOrOptions]

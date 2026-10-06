@@ -206,3 +206,60 @@ test.describe("moderação", () => {
     });
   });
 });
+
+test.describe("lista compartilhada", () => {
+  test("dono compartilha por e-mail, convidado edita, dono vê quem adicionou", async ({
+    page,
+    browser,
+  }) => {
+    // Convidada precisa ter entrado no app uma vez
+    const guestEmail = uniqueEmail("convidada");
+    const guest = await (await browser.newContext()).newPage();
+    await guest.goto("/");
+    await loginByEmail(guest, guestEmail);
+
+    // Dono cria a lista e compartilha
+    await page.goto("/");
+    await loginByEmail(page, uniqueEmail("dono"));
+    await page.getByRole("button", { name: "Minha lista" }).click();
+    const list = page.getByRole("dialog", { name: "Minha lista de feira" });
+    await list.getByLabel("Item", { exact: true }).fill("Alface");
+    await list.getByRole("button", { name: "Adicionar", exact: true }).click();
+    await expect(list.getByText("Alface")).toBeVisible();
+
+    await list.getByRole("button", { name: /Compartilhar lista/ }).click();
+    await list.getByLabel("E-mail da pessoa").fill("nao-existe@teste.local");
+    await list.getByRole("button", { name: "Compartilhar", exact: true }).click();
+    await expect(list.getByText(/Não encontramos ninguém/)).toBeVisible();
+
+    await list.getByLabel("E-mail da pessoa").fill(guestEmail);
+    await list.getByRole("button", { name: "Compartilhar", exact: true }).click();
+    await expect(list.getByText(/Lista compartilhada com/)).toBeVisible();
+    await expect(list.getByRole("list", { name: "Pessoas com acesso" })).toContainText(guestEmail);
+
+    // Convidada abre a lista do dono e adiciona um item
+    await guest.reload();
+    await guest.getByRole("button", { name: "Minha lista" }).click();
+    const guestDialog = guest.getByRole("dialog");
+    await guestDialog.getByRole("tab", { name: /Lista de dono/ }).click();
+    await expect(guestDialog.getByText("Alface")).toBeVisible();
+    await guestDialog.getByLabel("Item", { exact: true }).fill("Tomate cereja");
+    await guestDialog.getByRole("button", { name: "Adicionar", exact: true }).click();
+    await expect(guestDialog.getByText("Tomate cereja")).toBeVisible();
+
+    // Dono vê o item e quem adicionou
+    await page.keyboard.press("Escape");
+    await page.getByRole("button", { name: "Minha lista" }).click();
+    const again = page.getByRole("dialog");
+    await expect(again.getByText("Tomate cereja")).toBeVisible();
+    await expect(again.getByText(/por convidada/)).toBeVisible();
+
+    // Dono remove o acesso; convidada deixa de ver a lista
+    page.once("dialog", (d) => d.accept());
+    await again.getByRole("button", { name: /Remover .* da lista/ }).click();
+    await expect(again.getByRole("list", { name: "Pessoas com acesso" })).toHaveCount(0);
+    await guest.reload();
+    await guest.getByRole("button", { name: "Minha lista" }).click();
+    await expect(guest.getByRole("tab", { name: /Lista de dono/ })).toHaveCount(0);
+  });
+});

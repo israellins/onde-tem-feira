@@ -77,11 +77,19 @@ export function createLocalShoppingStore(storage: Storage): ShoppingStore {
   };
 }
 
+/**
+ * Lista guardada no Supabase.
+ * @param listOwnerId dono da lista aberta — o próprio usuário ou quem a
+ *                    compartilhou com ele.
+ */
 export function createRemoteShoppingStore(
   supabase: TypedSupabaseClient,
-  userId: string,
+  listOwnerId: string,
 ): ShoppingStore {
-  const map = (row: {
+  const COLUMNS =
+    "id, item, quantity, price_estimate, category, completed, created_at, added_by, adder:profiles!shopping_items_added_by_fkey(display_name)";
+
+  type Row = {
     id: string;
     item: string;
     quantity: string;
@@ -89,7 +97,11 @@ export function createRemoteShoppingStore(
     category: string;
     completed: boolean;
     created_at: string;
-  }): ShoppingItem => ({
+    added_by: string | null;
+    adder: { display_name: string } | null;
+  };
+
+  const map = (row: Row): ShoppingItem => ({
     id: row.id,
     item: row.item,
     quantity: row.quantity,
@@ -97,25 +109,26 @@ export function createRemoteShoppingStore(
     category: asCategory(row.category),
     completed: row.completed,
     createdAt: row.created_at,
+    addedBy: row.added_by,
+    addedByName: row.adder?.display_name ?? null,
   });
-
-  const COLUMNS = "id, item, quantity, price_estimate, category, completed, created_at";
 
   return {
     async list() {
       const { data, error } = await supabase
         .from("shopping_items")
         .select(COLUMNS)
+        .eq("user_id", listOwnerId)
         .order("created_at", { ascending: false })
         .limit(500);
       if (error) throw error;
-      return (data ?? []).map(map);
+      return (data ?? []).map((r) => map(r as Row));
     },
     async add(input) {
       const { data, error } = await supabase
         .from("shopping_items")
         .insert({
-          user_id: userId,
+          user_id: listOwnerId,
           item: input.item,
           quantity: input.quantity,
           price_estimate: input.priceEstimate,
@@ -124,7 +137,7 @@ export function createRemoteShoppingStore(
         .select(COLUMNS)
         .single();
       if (error) throw error;
-      return map(data);
+      return map(data as Row);
     },
     async setCompleted(id, completed) {
       const { error } = await supabase.from("shopping_items").update({ completed }).eq("id", id);
@@ -138,11 +151,84 @@ export function createRemoteShoppingStore(
       const { error } = await supabase
         .from("shopping_items")
         .delete()
-        .eq("user_id", userId)
+        .eq("user_id", listOwnerId)
         .eq("completed", true);
       if (error) throw error;
     },
   };
+}
+
+// ---------------------------------------------------------------------------
+// Compartilhamento
+// ---------------------------------------------------------------------------
+
+export interface ListMember {
+  memberId: string;
+  email: string;
+  name: string;
+}
+
+export interface SharedList {
+  ownerId: string;
+  ownerName: string;
+}
+
+export interface ShareInfo {
+  /** Pessoas com quem eu compartilho a minha lista. */
+  members: ListMember[];
+  /** Listas que outras pessoas compartilharam comigo. */
+  sharedWithMe: SharedList[];
+}
+
+export async function fetchShareInfo(
+  supabase: TypedSupabaseClient,
+  userId: string,
+): Promise<ShareInfo> {
+  const { data, error } = await supabase
+    .from("shopping_list_shares")
+    .select(
+      "owner_id, member_id, member_email, owner:profiles!shopping_list_shares_owner_id_fkey(display_name), member:profiles!shopping_list_shares_member_id_fkey(display_name)",
+    )
+    .order("created_at", { ascending: true });
+  if (error) throw error;
+
+  const info: ShareInfo = { members: [], sharedWithMe: [] };
+  for (const row of data ?? []) {
+    if (row.owner_id === userId) {
+      info.members.push({
+        memberId: row.member_id,
+        email: row.member_email,
+        name: row.member?.display_name ?? row.member_email,
+      });
+    } else if (row.member_id === userId) {
+      info.sharedWithMe.push({
+        ownerId: row.owner_id,
+        ownerName: row.owner?.display_name ?? "Alguém",
+      });
+    }
+  }
+  return info;
+}
+
+/** Compartilha a minha lista; devolve o nome da pessoa. */
+export async function shareList(supabase: TypedSupabaseClient, email: string): Promise<string> {
+  const { data, error } = await supabase.rpc("share_shopping_list", { target_email: email });
+  if (error) throw error;
+  return data ?? email;
+}
+
+/** Remove um compartilhamento (o dono remove alguém, ou o convidado sai). */
+export async function removeShare(
+  supabase: TypedSupabaseClient,
+  ownerId: string,
+  memberId: string,
+): Promise<void> {
+  const { error } = await supabase
+    .from("shopping_list_shares")
+    .delete()
+    .eq("owner_id", ownerId)
+    .eq("member_id", memberId);
+  if (error) throw error;
 }
 
 /** Itens salvos no aparelho antes do login, para oferecer importação. */

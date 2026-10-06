@@ -2,6 +2,15 @@
 
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
+## [1.1.0] — 2026-10-05
+
+### Adicionado
+
+- Compartilhar a lista de compras por e-mail com outras pessoas cadastradas. Convidados veem,
+  adicionam, marcam e removem itens; cada item mostra quem o adicionou. O dono pode remover
+  pessoas e o convidado pode sair da lista a qualquer momento.
+- 4 novos testes de segurança do banco e 2 testes no navegador para o compartilhamento.
+
 ## [1.0.0] — 2026-10-04
 
 Revisão completa para deixar o projeto pronto para produção.

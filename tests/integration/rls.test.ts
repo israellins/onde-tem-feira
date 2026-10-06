@@ -399,4 +399,90 @@ describe.skipIf(!enabled)("segurança do banco (RLS)", { timeout: 30_000 }, () =
     const { error } = await anon.rpc("delete_my_account");
     expect(error).not.toBeNull();
   });
+
+  // ------------------------------------------------- lista compartilhada
+  describe("compartilhamento da lista de compras", () => {
+    it("só compartilha com e-mail cadastrado e não consigo compartilhar comigo", async () => {
+      const ghost = await alice.rpc("share_shopping_list", { target_email: "ninguem@nada.local" });
+      expect(ghost.error?.message).toMatch(/Não encontramos/);
+      const self = await alice.rpc("share_shopping_list", {
+        target_email: `ALICE-${run}@teste.local`,
+      });
+      expect(self.error?.message).toMatch(/próprio/);
+    });
+
+    it("convidado vê, adiciona e marca itens; terceiros não veem nada", async () => {
+      const { data: owned } = await alice
+        .from("shopping_items")
+        .insert({ user_id: ids.alice, item: "Banana" })
+        .select("id")
+        .single();
+
+      // Antes de compartilhar, Bob não vê
+      const before = await bob.from("shopping_items").select("id").eq("user_id", ids.alice);
+      expect(before.data).toHaveLength(0);
+      const forbidden = await bob.from("shopping_items").insert({ user_id: ids.alice, item: "x" });
+      expect(forbidden.error).not.toBeNull();
+
+      const { data: name, error } = await alice.rpc("share_shopping_list", {
+        target_email: ` Bob-${run}@TESTE.local `,
+      });
+      expect(error).toBeNull();
+      expect(name).toBe("bob Teste");
+
+      // Bob vê a lista da Alice, adiciona e marca
+      const seen = await bob.from("shopping_items").select("item").eq("user_id", ids.alice);
+      expect(seen.data?.map((r) => r.item)).toContain("Banana");
+      const added = await bob
+        .from("shopping_items")
+        .insert({ user_id: ids.alice, item: "Ovos" })
+        .select("added_by")
+        .single();
+      expect(added.data?.added_by).toBe(ids.bob);
+      const toggled = await bob
+        .from("shopping_items")
+        .update({ completed: true })
+        .eq("id", owned!.id)
+        .select("completed, added_by")
+        .single();
+      expect(toggled.data).toEqual({ completed: true, added_by: ids.alice });
+
+      // Ninguém se passa por outra pessoa
+      const forged = await bob
+        .from("shopping_items")
+        .insert({ user_id: ids.alice, item: "Falso", added_by: ids.alice })
+        .select("added_by")
+        .single();
+      expect(forged.data?.added_by).toBe(ids.bob);
+
+      // O moderador (terceiro) não vê a lista da Alice
+      const third = await moderator.from("shopping_items").select("id").eq("user_id", ids.alice);
+      expect(third.data).toHaveLength(0);
+      // Nem o compartilhamento
+      const thirdShares = await moderator.from("shopping_list_shares").select("*");
+      expect(thirdShares.data).toHaveLength(0);
+    });
+
+    it("não dá para criar compartilhamento direto na tabela", async () => {
+      const { error } = await bob
+        .from("shopping_list_shares")
+        .insert({ owner_id: ids.alice, member_id: ids.bob, member_email: "x@y.z" });
+      expect(error).not.toBeNull();
+    });
+
+    it("convidado sai da lista e perde o acesso", async () => {
+      const left = await bob
+        .from("shopping_list_shares")
+        .delete()
+        .eq("owner_id", ids.alice)
+        .eq("member_id", ids.bob)
+        .select();
+      expect(left.data).toHaveLength(1);
+      const after = await bob.from("shopping_items").select("id").eq("user_id", ids.alice);
+      expect(after.data).toHaveLength(0);
+      // A lista da Alice continua intacta
+      const own = await alice.from("shopping_items").select("item").eq("user_id", ids.alice);
+      expect(own.data?.map((r) => r.item)).toEqual(expect.arrayContaining(["Banana", "Ovos"]));
+    });
+  });
 });
