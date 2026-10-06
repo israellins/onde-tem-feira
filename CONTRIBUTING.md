@@ -1,5 +1,7 @@
 # Como contribuir
 
+Antes de começar, leia o [guia de desenvolvimento](docs/DESENVOLVIMENTO.md).
+
 ## Fluxo
 
 1. Crie um branch a partir de `main`: `git checkout -b feat/descricao-curta`
@@ -19,6 +21,9 @@
 - **Textos:** interface em português do Brasil, linguagem simples.
 - **Acessibilidade:** botões com texto ou `aria-label`, campos com `<label>`, use o componente
   `Modal` (fecha com Esc e prende o foco).
+- **Documentação:** atualize `docs/` no mesmo PR (requisito novo em
+  [REQUISITOS.md](docs/REQUISITOS.md), banco em [BANCO-DE-DADOS.md](docs/BANCO-DE-DADOS.md),
+  decisão importante em um [ADR](docs/adr/README.md)).
 - **Segredos:** nada de chaves `service_role`/`secret` no código. Só variáveis
   `NEXT_PUBLIC_*` vão para o navegador.
 
