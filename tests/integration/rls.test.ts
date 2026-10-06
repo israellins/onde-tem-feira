@@ -186,7 +186,8 @@ describe.skipIf(!enabled)("segurança do banco (RLS)", { timeout: 30_000 }, () =
       .select("*")
       .eq("post_id", post!.id);
     expect(reportsSeenByBob).toHaveLength(0);
-    await bob.from("posts").update({ hidden: true }).eq("id", post!.id);
+    const bobHides = await bob.from("posts").update({ hidden: true }).eq("id", post!.id).select();
+    expect(bobHides.data).toHaveLength(0);
 
     const { data: reports } = await moderator
       .from("post_reports")
@@ -198,6 +199,14 @@ describe.skipIf(!enabled)("segurança do banco (RLS)", { timeout: 30_000 }, () =
 
     const { data: publicView } = await anon.from("posts").select("id").eq("id", post!.id);
     expect(publicView).toHaveLength(0);
+
+    // Só o moderador resolve denúncias e apaga relatos de outras pessoas
+    const bobClears = await bob.from("post_reports").delete().eq("post_id", post!.id).select();
+    expect(bobClears.data).toHaveLength(0);
+    const cleared = await moderator.from("post_reports").delete().eq("post_id", post!.id).select();
+    expect(cleared.data).toHaveLength(1);
+    const removed = await moderator.from("posts").delete().eq("id", post!.id).select();
+    expect(removed.data).toHaveLength(1);
   });
 
   it("limita a 10 relatos por hora", async () => {
@@ -349,6 +358,21 @@ describe.skipIf(!enabled)("segurança do banco (RLS)", { timeout: 30_000 }, () =
     await admin.from("feiras").update({ active: true, hours: before!.hours }).eq("id", target);
   });
 
+  it("usuário não aprova a própria sugestão alterando a tabela", async () => {
+    const { data: s } = await alice
+      .from("feira_suggestions")
+      .insert({ user_id: ids.alice, kind: "alteracao", feira_id: FEIRA, payload: { hours: "1h" } })
+      .select("id")
+      .single();
+    const forged = await alice
+      .from("feira_suggestions")
+      .update({ status: "aprovada" })
+      .eq("id", s!.id)
+      .select();
+    expect(forged.data ?? []).toHaveLength(0);
+    await admin.from("feira_suggestions").delete().eq("id", s!.id);
+  });
+
   it("usuário só vê as próprias sugestões", async () => {
     const { data } = await alice.from("feira_suggestions").select("user_id");
     expect(data?.every((r) => r.user_id === ids.alice)).toBe(true);
@@ -371,7 +395,26 @@ describe.skipIf(!enabled)("segurança do banco (RLS)", { timeout: 30_000 }, () =
         contentType: "image/svg+xml",
       });
     expect(svg.error).not.toBeNull();
-    await alice.storage.from("post-photos").remove([`${ids.alice}/t-${run}.png`]);
+  });
+
+  it("só o dono lista e apaga as próprias fotos (exclusão funciona de verdade)", async () => {
+    const path = `${ids.alice}/apagar-${run}.png`;
+    const png = new Blob([new Uint8Array([137, 80, 78, 71])], { type: "image/png" });
+    await alice.storage.from("post-photos").upload(path, png, { contentType: "image/png" });
+
+    const bobList = await bob.storage.from("post-photos").list(ids.alice);
+    expect(bobList.data ?? []).toHaveLength(0);
+    const bobRemove = await bob.storage.from("post-photos").remove([path]);
+    expect(bobRemove.data ?? []).toHaveLength(0);
+
+    const own = await alice.storage.from("post-photos").list(ids.alice);
+    expect(own.data?.map((f) => f.name)).toContain(`apagar-${run}.png`);
+    const removed = await alice.storage.from("post-photos").remove([path]);
+    expect(removed.data).toHaveLength(1);
+
+    const left = await admin.storage.from("post-photos").list(ids.alice);
+    expect(left.data?.map((f) => f.name)).not.toContain(`apagar-${run}.png`);
+    await admin.storage.from("post-photos").remove([`${ids.alice}/t-${run}.png`]);
   });
 
   // ------------------------------------------------------- exclusão de conta
@@ -483,6 +526,19 @@ describe.skipIf(!enabled)("segurança do banco (RLS)", { timeout: 30_000 }, () =
       // A lista da Alice continua intacta
       const own = await alice.from("shopping_items").select("item").eq("user_id", ids.alice);
       expect(own.data?.map((r) => r.item)).toEqual(expect.arrayContaining(["Banana", "Ovos"]));
+    });
+
+    it("dono remove o convidado", async () => {
+      await alice.rpc("share_shopping_list", { target_email: `bob-${run}@teste.local` });
+      const removed = await alice
+        .from("shopping_list_shares")
+        .delete()
+        .eq("owner_id", ids.alice)
+        .eq("member_id", ids.bob)
+        .select();
+      expect(removed.data).toHaveLength(1);
+      const after = await bob.from("shopping_items").select("id").eq("user_id", ids.alice);
+      expect(after.data).toHaveLength(0);
     });
   });
 });
