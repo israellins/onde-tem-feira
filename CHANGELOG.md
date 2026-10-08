@@ -4,6 +4,11 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
 ## [Não lançado]
 
+### Segurança
+
+- `source-map-js` atualizado para 1.2.2 (alerta alto GHSA-68fv-2mgg-jv7q, negação de serviço),
+  dependência indireta do Next/PostCSS. Só o `package-lock.json` muda.
+
 ### Corrigido
 
 - Fotos do mural não eram apagadas do armazenamento ao apagar um relato ou excluir a conta
