@@ -13,6 +13,7 @@ cidade, dia e bairro, monte sua lista de compras e compartilhe preços com a com
 | Filtros por cidade, dia, "Hoje" e busca sem acentos   | Confirmar que a feira está funcionando           |
 | Selos de qualidade do dado (verificada, aproximada…)  | Sugerir correções e feiras novas (com moderação) |
 | Lista de compras salva no aparelho                    | Lista de compras sincronizada entre aparelhos    |
+|                                                       | Compartilhar a lista por e-mail                  |
 | "Como chegar" pelo Google Maps                        | Excluir a conta e todos os dados a qualquer hora |
 
 Administradores têm um **painel de moderação** em `/admin` para aprovar sugestões e tratar
@@ -57,11 +58,16 @@ Os e-mails de login do ambiente local chegam em http://127.0.0.1:54324 (Mailpit)
 
 ## Documentação
 
-- [Colocar no ar (Supabase + Vercel + login com Google)](docs/CONFIGURAR-PRODUCAO.md)
-- [Arquitetura e decisões](docs/ARQUITETURA.md)
-- [Dados das feiras: fontes e como atualizar](docs/DADOS.md)
-- [Publicar na Google Play](docs/PLAY-STORE.md)
-- [Como contribuir](CONTRIBUTING.md) · [Segurança](SECURITY.md) · [Mudanças](CHANGELOG.md)
+Índice completo e roteiro por perfil em **[docs/](docs/README.md)**.
+
+| Para…                         | Leia                                                                                  |
+| ----------------------------- | ------------------------------------------------------------------------------------- |
+| Entender o produto            | [Requisitos](docs/REQUISITOS.md) · [Glossário](docs/GLOSSARIO.md)                     |
+| Entender o sistema            | [Arquitetura](docs/ARQUITETURA.md) · [Banco de dados](docs/BANCO-DE-DADOS.md) · [Frontend](docs/FRONTEND.md) · [Decisões (ADRs)](docs/adr/README.md) |
+| Programar                     | [Desenvolvimento](docs/DESENVOLVIMENTO.md) · [Testes](docs/TESTES.md) · [Ferramentas](docs/FERRAMENTAS.md) |
+| Operar                        | [Operação](docs/OPERACAO.md) · [Colocar no ar](docs/CONFIGURAR-PRODUCAO.md) · [Google Play](docs/PLAY-STORE.md) |
+| Dados das feiras              | [Fontes e atualização](docs/DADOS.md)                                                 |
+| Colaborar                     | [Como contribuir](CONTRIBUTING.md) · [Segurança](SECURITY.md) · [Mudanças](CHANGELOG.md) |
 
 ## Stack
 

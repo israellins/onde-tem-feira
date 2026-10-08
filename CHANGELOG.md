@@ -2,6 +2,36 @@
 
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
+## [Não lançado]
+
+### Segurança
+
+- `source-map-js` atualizado para 1.2.2 (alerta alto GHSA-68fv-2mgg-jv7q, negação de serviço),
+  dependência indireta do Next/PostCSS. Só o `package-lock.json` muda.
+
+### Corrigido
+
+- Fotos do mural não eram apagadas do armazenamento ao apagar um relato ou excluir a conta
+  (faltava a permissão de listar a própria pasta). Migration `20261006120000`.
+- 3 testes de segurança novos (fotos, moderação de denúncias, sugestão forjada, remoção de
+  convidado).
+
+### Documentação
+
+- Documentação técnica e de produto completa em `docs/`: requisitos (RF/RNF/RN, casos de uso
+  e rastreabilidade para os testes), arquitetura com diagramas, banco de dados (ER,
+  dicionário e matriz de permissões), frontend, ferramentas e serviços, guia de
+  desenvolvimento, testes, operação, glossário e 7 ADRs.
+
+## [1.1.0] — 2026-10-05
+
+### Adicionado
+
+- Compartilhar a lista de compras por e-mail com outras pessoas cadastradas. Convidados veem,
+  adicionam, marcam e removem itens; cada item mostra quem o adicionou. O dono pode remover
+  pessoas e o convidado pode sair da lista a qualquer momento.
+- 4 novos testes de segurança do banco e 2 testes no navegador para o compartilhamento.
+
 ## [1.0.0] — 2026-10-04
 
 Revisão completa para deixar o projeto pronto para produção.
